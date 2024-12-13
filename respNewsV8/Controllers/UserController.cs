@@ -20,13 +20,23 @@ namespace respNewsV8.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] User user)
         {
-            if (!_userService.IsValidUser(user))
+            try
             {
-                return Unauthorized(new { Message = "Invalid username or password" });
-            }
+                if (!_userService.IsValidUser(user))
+                {
+                    return Unauthorized(new { Message = "Invalid username or password" });
+                }
 
-            var tokenString = _jwtService.GenerateJwtToken(user.UserName);
-            return Ok(new { Token = tokenString });
+                var tokenString = _jwtService.GenerateJwtToken(user.UserName);
+                return Ok(new { Token = tokenString });
+            }
+            catch (Exception ex)
+            {
+
+                // Hata mesajı ile birlikte 500 döndürülmesi
+                return StatusCode(500, new { Message = "Internal Server Error", Error = ex.Message });
+            }
         }
+
     }
 }

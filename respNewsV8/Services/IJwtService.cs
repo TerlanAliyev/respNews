@@ -1,4 +1,5 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using respNewsV8.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -24,29 +25,35 @@ namespace respNewsV8.Services
 
         public string GenerateJwtToken(string username)
         {
-
-            var user = _sql.Users.SingleOrDefault(x => x.UserName == username);
-
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]));
-            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-
-            var claims = new[]
+            try
             {
-                new Claim(ClaimTypes.Name, username),
-                new Claim(ClaimTypes.Role, user.UserRole), // Kullanıcı rolü ekleniyor
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-            };
+                var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]));
+                var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
-            var token = new JwtSecurityToken(
-                issuer: _configuration["Jwt:Issuer"],
-                audience: _configuration["Jwt:Audience"],
-                claims: claims,
-                expires: DateTime.Now.AddMinutes(double.Parse(_configuration["Jwt:ExpireMinutes"])),
-                signingCredentials: credentials
-            );
+                var claims = new[]
+                {
+            new Claim(ClaimTypes.Name, username),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+        };
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
+                var token = new JwtSecurityToken(
+                    issuer: _configuration["Jwt:Issuer"],
+                    audience: _configuration["Jwt:Audience"],
+                    claims: claims,
+                    expires: DateTime.Now.AddMinutes(30),
+                    signingCredentials: credentials
+                );
+
+                return new JwtSecurityTokenHandler().WriteToken(token);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
+       
+
+
 
     }
 }

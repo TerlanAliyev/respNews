@@ -18,8 +18,23 @@ namespace respNewsV8.Services
 
         public bool IsValidUser(User user)
         {
-            var foundUser = _context.Users.SingleOrDefault(u => u.UserName == user.UserName && u.UserPassword == user.UserPassword);
-            return foundUser != null;
+            try
+            {
+                var foundUser = _context.Users
+                    .FirstOrDefault(u => u.UserName == user.UserName && u.UserPassword == user.UserPassword);
+
+                if (foundUser == null)
+                {
+                    return false;
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
+
     }
 }
