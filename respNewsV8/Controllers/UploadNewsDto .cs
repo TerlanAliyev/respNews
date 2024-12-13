@@ -8,7 +8,7 @@
         public int? NewsLangId { get; set; }
         public int? NewsOwnerId { get; set; }
         public int? NewsAdminId { get; set; }
-        public List<string> Tags { get; set; } 
+        public List<string>? Tags { get; set; } 
 
 
 

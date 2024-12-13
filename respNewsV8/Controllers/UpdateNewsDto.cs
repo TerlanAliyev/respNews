@@ -3,11 +3,14 @@
     public class UpdateNewsDto
     {
         public string NewsTitle { get; set; }
-        public string NewsContetText { get; set; }
+        public string NewsContentText { get; set; } // 'ContetText' hatalıydı, 'ContentText' olarak düzelttim.
         public int NewsCategoryId { get; set; }
         public int NewsLangId { get; set; }
+        public bool IsVisible { get; set; }
+
         public int NewsRating { get; set; }
         public string NewsYoutubeLink { get; set; }
-        public string NewsPhotoBase64 { get; set; } // Base64 string
+        public List<IFormFile>? NewsPhotos { get; set; }
+        public List<IFormFile>? NewsVideos { get; set; }
     }
 }

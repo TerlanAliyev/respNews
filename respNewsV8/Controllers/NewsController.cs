@@ -647,30 +647,31 @@ namespace respNewsV8.Controllers
         }
 
         // EDIT
-        //[Authorize(Roles = "Admin")]
+        // [Authorize(Roles = "Admin")]
+        
+
         [HttpPut("{id}")]
-        public IActionResult Put(int id, News news)
+        public IActionResult UpdateNews(int id, [FromBody] UpdateNewsDto updateNewsDto)
         {
-            var old = _sql.News.SingleOrDefault(x => x.NewsId == id);
-            if (old == null)
+            var oldNews = _sql.News.SingleOrDefault(x => x.NewsId == id);
+            if (oldNews == null)
             {
                 return NotFound();
             }
-            old.NewsStatus = news.NewsStatus;
-            old.NewsVisibility = news.NewsVisibility;
-            old.NewsTitle = news.NewsTitle;
-            old.NewsContetText = news.NewsContetText;
-            old.NewsDate = old.NewsDate;
-            old.NewsCategoryId = news.NewsCategoryId;
-            old.NewsLangId = news.NewsLangId;
-            old.NewsOwnerId = news.NewsOwnerId;
-            old.NewsRating = news.NewsRating;
-            old.NewsUpdateDate = DateTime.Now;
+
+            oldNews.NewsTitle = updateNewsDto.NewsTitle;
+            oldNews.NewsContetText = updateNewsDto.NewsContentText; // Düzeltme yapıldı
+            oldNews.NewsCategoryId = updateNewsDto.NewsCategoryId;
+            oldNews.NewsLangId = updateNewsDto.NewsLangId;
+            oldNews.NewsVisibility = updateNewsDto.IsVisible;
+            oldNews.NewsRating = updateNewsDto.NewsRating;
+            oldNews.NewsYoutubeLink = updateNewsDto.NewsYoutubeLink;
+            oldNews.NewsUpdateDate = DateTime.Now;
 
             _sql.SaveChanges();
-
             return NoContent();
         }
+
 
         // EDIT (visibility Update )
         //[Authorize(Roles = "Admin")]
@@ -683,14 +684,15 @@ namespace respNewsV8.Controllers
                 return NotFound();
             }
 
+            // Visibility durumunu güncelle
             news.NewsVisibility = visibilityDto.IsVisible;
             news.NewsUpdateDate = DateTime.Now;
+
+            // Değişiklikleri kaydet
             _sql.SaveChanges();
 
-            return NoContent();
+            return NoContent();  // Güncelleme başarılı olduğunda 204 döndür
         }
-
-
 
 
 
