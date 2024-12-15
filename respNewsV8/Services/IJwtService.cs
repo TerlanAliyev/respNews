@@ -23,6 +23,10 @@ namespace respNewsV8.Services
             _configuration = configuration;
         }
 
+
+
+
+
         public string GenerateJwtToken(string username)
         {
             try
@@ -30,10 +34,15 @@ namespace respNewsV8.Services
                 var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]));
                 var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
+                // Kullanıcıyı veritabanından al
+                var user = _sql.Users.FirstOrDefault(u => u.UserName == username);
+                if (user == null) throw new UnauthorizedAccessException("User not found");
+
                 var claims = new[]
                 {
             new Claim(ClaimTypes.Name, username),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            new Claim(ClaimTypes.Role, user.UserRole)  // Rolü JWT'ye ekliyoruz
         };
 
                 var token = new JwtSecurityToken(
@@ -51,7 +60,8 @@ namespace respNewsV8.Services
                 throw;
             }
         }
-       
+
+
 
 
 

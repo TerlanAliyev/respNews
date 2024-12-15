@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using respNewsV8.Models;
@@ -20,19 +21,22 @@ namespace respNewsV8.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var infs = _sql.Infographics.ToList();
+            var infs = _sql.İnfographics.ToList();
             return Ok(infs);
         }
 
+
+
+        [Authorize(Roles = "Admin")]
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var infs = _sql.Infographics.Where(x => x.InfId == id).ToList();
+            var infs = _sql.İnfographics.Where(x => x.InfId == id).ToList();
             _sql.RemoveRange(infs);
             _sql.SaveChanges();
             return Ok(infs);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost("upload")]
         public async Task<IActionResult> UploadInfographic([FromForm] InfographicDTO infographicDTO)
         {
@@ -54,14 +58,14 @@ namespace respNewsV8.Controllers
                 }
 
                 // Veritabanına kaydetme
-                var infographic = new Infographic
+                var infographic = new İnfographic
                 {
                     InfName = infographicDTO.InfName,
                     InfPhoto = $"/InfPhotos/{fileName}", // URL'yi kaydet
                     InfPostDate = DateTime.Now
                 };
 
-                _sql.Infographics.Add(infographic);  // Infographic nesnesini ekle
+                _sql.İnfographics.Add(infographic);  // Infographic nesnesini ekle
                 await _sql.SaveChangesAsync();  // Değişiklikleri kaydet
 
                 return Ok(new { message = "File uploaded and saved to database", fileUrl = infographic.InfPhoto });

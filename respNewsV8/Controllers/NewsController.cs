@@ -14,6 +14,8 @@ using respNewsV8.Controllers;
 using respNewsV8.Models;
 using Microsoft.AspNetCore.RateLimiting;
 using respNewsV8.Services;
+using YamlDotNet.Core.Tokens;
+using YamlDotNet.Core;
 
 
 
@@ -60,7 +62,8 @@ namespace respNewsV8.Controllers
         public IActionResult GetNewsCount()
         {
             // Kategorilerin sayısını almak
-            var NewsCount = _sql.News
+            var NewsCount = _sql.News.Where(n => n.NewsStatus == true)
+
                 .Select(x => x.NewsId)  // Kategori ismi
                 .Distinct()                   // Benzersiz kategoriler
                 .Count();                     // Sayma işlemi
@@ -78,7 +81,7 @@ namespace respNewsV8.Controllers
             {
                 // Kategorilerin sayısını almak
                 var NewsCount = _sql.News
-                    .Where(x => x.NewsLangId == langId) // Dil ID'ye göre filtreleme
+                    .Where(x => x.NewsLangId == langId && x.NewsStatus==true) // Dil ID'ye göre filtreleme
                     .Select(x => x.NewsId)  // Kategori ismi
                     .Distinct()                   // Benzersiz kategoriler
                     .Count();                     // Sayma işlemi
@@ -124,9 +127,7 @@ namespace respNewsV8.Controllers
                 .Include(n => n.NewsCategory)
                 .Include(n => n.NewsLang)
                 .Include(n => n.NewsPhotos)
-                .Include(n => n.NewsTags)
                 .Include(n => n.NewsOwner)
-                .Include(n=>n.NewsTags)
                 .Where(n => n.NewsStatus == true && n.NewsVisibility == true)
                 .Where(n => n.NewsLangId == languageId) 
                 .OrderByDescending(x => x.NewsDate)
@@ -144,11 +145,11 @@ namespace respNewsV8.Controllers
                     n.NewsVisibility,
                     n.NewsStatus,
                     n.NewsRating,
+                    n.NewsTags,
                     n.NewsOwner,
                     n.NewsUpdateDate,
                     n.NewsViewCount,
                     n.NewsYoutubeLink,
-                    n.NewsTags,
                     n.NewsPhotos,
                     n.NewsVideos
                 }).Skip(page * 3).Take(3).ToList();
@@ -176,9 +177,7 @@ namespace respNewsV8.Controllers
                 .Include(n => n.NewsCategory)
                 .Include(n => n.NewsLang)
                 .Include(n => n.NewsPhotos)
-                .Include(n => n.NewsTags)
                 .Include(n => n.NewsOwner)
-                .Include(n => n.NewsTags)
                 .Where(n => n.NewsStatus == true && n.NewsVisibility == true)
                 .Where(n => n.NewsLangId == languageId)
                 .OrderByDescending(x => x.NewsDate)
@@ -237,9 +236,7 @@ namespace respNewsV8.Controllers
                 .Include(n => n.NewsCategory)
                 .Include(n => n.NewsLang)
                 .Include(n => n.NewsPhotos)
-                .Include(n => n.NewsTags)
                 .Include(n => n.NewsOwner)
-                .Include(n=>n.NewsTags)
                 .Where(n => n.NewsStatus == true && n.NewsVisibility == true)
                 .Where(n => n.NewsRating == RatingId)
                 .Where(n => n.NewsLangId == languageId)
@@ -261,7 +258,7 @@ namespace respNewsV8.Controllers
                     n.NewsUpdateDate,
                     n.NewsViewCount,
                     n.NewsYoutubeLink,
-                    n.NewsTags,
+                    n.NewsTags, 
                     n.NewsPhotos,
                     n.NewsVideos
                 }).ToList();
@@ -292,9 +289,7 @@ namespace respNewsV8.Controllers
                 .Include(n => n.NewsCategory)
                 .Include(n => n.NewsLang)
                 .Include(n => n.NewsPhotos)
-                .Include(n => n.NewsTags)
                 .Include(n => n.NewsOwner)
-                .Include(n=>n.NewsTags)
                 .Where(n => n.NewsStatus == true && n.NewsVisibility == true)
                 .Where(n => n.NewsLangId == languageId)
                 .Where(n=>n.NewsCategoryId==categoryId)
@@ -333,59 +328,83 @@ namespace respNewsV8.Controllers
 
 
 
-
-        // GET by ID
+        ///  GET BY ID
         [HttpGet("id/{id}")]
-        public ActionResult<News> GetById(int id)
+        public ActionResult GetById(int id)
         {
+            // Haber detayını getir
             var news = _sql.News
                 .Include(n => n.NewsCategory)
                 .Include(n => n.NewsLang)
                 .Include(n => n.NewsPhotos)
-                .Include(n=>n.NewsVideos)
-                .Include(n => n.NewsTags)
+                .Include(n => n.NewsVideos)
                 .Include(n => n.NewsOwner)
-                .Include(n=>n.NewsTags)
-                .SingleOrDefault(x => x.NewsId == id);
+                .Include(n => n.NewsAdmin)
+                .SingleOrDefault(x => x.NewsId == id && x.NewsStatus == true);
 
-            var options = new JsonSerializerOptions
-            {
-                ReferenceHandler = ReferenceHandler.Preserve,
-                WriteIndented = true
-            };
-
+            // Haber bulunamazsa 404 dön
             if (news == null)
             {
-                return NotFound();
-            }
-            else
-            {
-                news.NewsViewCount++;
-                _sql.SaveChanges();
+                return NotFound(new { Message = "Haber bulunamadı." });
             }
 
+            // Görüntülenme sayısını artır ve kaydet
+            news.NewsViewCount++;
             _sql.SaveChanges();
 
-            return new JsonResult(news, options);
-            ;
+            // İstenen şekle dönüştür
+            var result = new
+            {
+                NewsId = news.NewsId,
+                NewsTitle = news.NewsTitle,
+                NewsContetText = news.NewsContetText,
+                NewsDate = news.NewsDate,
+                NewsCategoryId = news.NewsCategoryId,
+                NewsCategory = news.NewsCategory.CategoryName,
+                NewsLangId = news.NewsLangId,
+                NewsLang =  news.NewsLang.LanguageName,
+                NewsTags = news.NewsTags,   
+                NewsVisibility = news.NewsVisibility,
+                NewsRating = news.NewsRating,
+                NewsUpdateDate = news.NewsUpdateDate,
+                NewsYoutubeLink = news.NewsYoutubeLink,
+                NewsPhotos = news.NewsPhotos.Select(p => new { p.PhotoId, p.PhotoUrl }),
+                NewsVideos = news.NewsVideos.Select(v => new { v.VideoId, v.VideoUrl }),
+                //NewsTags = news.NewsTags.Select(t => new { t.TagId, t.TagName }),
+                NewsOwner = new
+                {
+                    news.NewsOwner.OwnerId,
+                    news.NewsOwner.OwnerName
+                },
+                NewsAdmin = new
+                {
+                    news.NewsAdmin.UserId,
+                    news.NewsAdmin.UserName,
+                }
+            };
+
+            // JSON formatında dön
+            return Ok(result);
         }
 
 
 
-		// Adminler ucun GET
-		//[Authorize(Roles = "Admin")]
-		[HttpGet("admin/{pageNumber}")]
+
+        // Adminler ucun GET
+        [Authorize(Roles = "Admin")]
+        [HttpGet("admin/{pageNumber}")]
         public List<News> GetForAdmins(DateTime? startDate = null, DateTime? endDate = null,int pageNumber=0)
         {
             int page = pageNumber;
 
-            var query = _sql.News.Include(n => n.NewsCategory)
+            var query = _sql.News
+                .Where(n => n.NewsStatus == true )
+                .Include(n => n.NewsCategory)
                 .Include(n => n.NewsLang)
                 .Include(n => n.NewsCategory)
                 .Include(n => n.NewsPhotos)
                 .Include(n => n.NewsOwner)
                 .Include(n=>n.NewsAdmin)
-                .Include(n=>n.NewsTags)
                 .Include(n=>n.NewsVideos)
                 .AsQueryable();
 
@@ -420,7 +439,7 @@ namespace respNewsV8.Controllers
                   NewsYoutubeLink = n.NewsYoutubeLink,
                   NewsPhotos = n.NewsPhotos,
                   NewsVideos = n.NewsVideos,
-                  NewsTags=n.NewsTags, /*+++*/
+                  NewsTags = n.NewsTags,
                   NewsOwner =n.NewsOwner, /*+++*/
                   NewsAdmin=n.NewsAdmin
 
@@ -436,12 +455,11 @@ namespace respNewsV8.Controllers
                 .Include(n => n.NewsLang)
                 .Include(n => n.NewsPhotos)
                 .Include(n=>n.NewsOwner)
-                .Include(n=>n.NewsTags)
                 .Include(n => n.NewsVideos)
                 .AsQueryable();
 
             // Sadece ratingi 5 olan xeberler
-            query = query.Where(n => n.NewsRating == 5);
+            query = query.Where(n => n.NewsRating == 5 && n.NewsStatus==true);
 
             // Tarix aralığına göre filtr
             if (startDate.HasValue)
@@ -456,6 +474,7 @@ namespace respNewsV8.Controllers
 
             // Sıralama: Güncellenme tarixine göre azalan sıralama
             return query
+
                 .OrderByDescending(n => n.NewsDate)
                 .Select(n => new News
                 {
@@ -467,16 +486,12 @@ namespace respNewsV8.Controllers
                     NewsCategory = n.NewsCategory,
                     NewsLangId = n.NewsLangId,
                     NewsLang = n.NewsLang,
-                    NewsVisibility = n.NewsVisibility,
-                    NewsStatus = n.NewsStatus,
                     NewsRating = n.NewsRating,
-                    NewsUpdateDate = n.NewsUpdateDate,
-                    NewsViewCount = n.NewsViewCount,
                     NewsYoutubeLink = n.NewsYoutubeLink,
                     NewsPhotos = n.NewsPhotos,
                     NewsVideos = n.NewsVideos,
                     NewsOwner=n.NewsOwner,
-                    NewsTags=n.NewsTags
+                    NewsTags = n.NewsTags,      
                 })
                 .ToList();
         }
@@ -499,18 +514,23 @@ namespace respNewsV8.Controllers
 
 
         // POST
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Post([FromForm] UploadNewsDto uploadNewsDto)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest("Geçersiz model.");
+                var errorMessages = ModelState.Values.SelectMany(v => v.Errors)
+                                                     .Select(e => e.ErrorMessage)
+                                                     .ToList();
+                return BadRequest(new { errors = errorMessages });
             }
+
             try
             {
                 DateTime newsDate = uploadNewsDto.NewsDate ?? DateTime.Now;
 
+                // Yeni haber oluşturma
                 News news = new News
                 {
                     NewsTitle = uploadNewsDto.NewsTitle,
@@ -519,59 +539,42 @@ namespace respNewsV8.Controllers
                     NewsCategoryId = uploadNewsDto.NewsCategoryId,
                     NewsLangId = uploadNewsDto.NewsLangId,
                     NewsOwnerId = uploadNewsDto.NewsOwnerId,
-                    NewsAdminId=uploadNewsDto.NewsAdminId,
+                    NewsAdminId = uploadNewsDto.NewsAdminId,
                     NewsRating = uploadNewsDto.NewsRating,
                     NewsDate = newsDate,
                     NewsUpdateDate = DateTime.Now,
                     NewsStatus = true,
-                    NewsVisibility = true
+                    NewsVisibility = true,
+                    // Etiketleri virgülle ayırarak kaydediyoruz
+                    NewsTags = string.Join(",", uploadNewsDto.NewsTags.Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries)
+                                                                     .Distinct())
                 };
-               
-                _sql.News.Add(news);
-                await _sql.SaveChangesAsync();
 
-                if (uploadNewsDto.NewsPhotos != null)
+                _sql.News.Add(news);
+                await _sql.SaveChangesAsync();  // Haber kaydını veritabanına ekle
+
+                // Fotoğrafları kaydetme
+                if (uploadNewsDto.NewsPhotos?.Any() == true)
                 {
                     foreach (var photo in uploadNewsDto.NewsPhotos)
                     {
-                        var PhotoUrl = await SaveFileAsync(photo, "NewsPhotos"); // Foto kaydetme metodu çağrılıyor
+                        var photoUrl = await SaveFileAsync(photo, "NewsPhotos");
 
                         NewsPhoto newsPhoto = new NewsPhoto
                         {
-                            PhotoUrl = PhotoUrl,
+                            PhotoUrl = photoUrl,
                             PhotoNewsId = news.NewsId
                         };
                         _sql.NewsPhotos.Add(newsPhoto);
                     }
                 }
 
-                if (uploadNewsDto.Tags != null && uploadNewsDto.Tags.Any())
-                {
-                    var tagsToAdd = new List<NewsTag>();
-
-                    foreach (var tagName in uploadNewsDto.Tags)
-                    {
-                        var tag = new NewsTag
-                        {
-                            TagName = tagName.Trim(),  // Etiketleri temizle
-                            TagNewsId = news.NewsId  // Eklenen haberin ID'sini al
-                        };
-                        tagsToAdd.Add(tag);
-                    }
-
-                    // Etiketleri topluca ekle
-                    await _sql.NewsTags.AddRangeAsync(tagsToAdd);
-                    await _sql.SaveChangesAsync();
-                }
-
-
-
                 // Videoları kaydetme
-                if (uploadNewsDto.NewsVideos != null)
+                if (uploadNewsDto.NewsVideos?.Any() == true)
                 {
                     foreach (var video in uploadNewsDto.NewsVideos)
                     {
-                        var videoUrl = await SaveFileAsync(video, "NewsVideos"); // Video kaydetme metodu çağrılıyor
+                        var videoUrl = await SaveFileAsync(video, "NewsVideos");
 
                         NewsVideo newsVideo = new NewsVideo
                         {
@@ -582,7 +585,7 @@ namespace respNewsV8.Controllers
                     }
                 }
 
-                await _sql.SaveChangesAsync();
+                await _sql.SaveChangesAsync();  // Veritabanı değişikliklerini kaydet
 
                 return CreatedAtAction(nameof(GetById), new { id = news.NewsId }, news);
             }
@@ -648,29 +651,67 @@ namespace respNewsV8.Controllers
 
         // EDIT
         // [Authorize(Roles = "Admin")]
-        
 
-        [HttpPut("{id}")]
+        [HttpPut("id/{id}")]
         public IActionResult UpdateNews(int id, [FromBody] UpdateNewsDto updateNewsDto)
         {
-            var oldNews = _sql.News.SingleOrDefault(x => x.NewsId == id);
-            if (oldNews == null)
+            // Haberi bul
+            var existingNews = _sql.News
+                .Include(n => n.NewsCategory)
+                .Include(n => n.NewsLang)
+                .Include(n => n.NewsPhotos)
+                .Include(n => n.NewsVideos)
+                .Include(n => n.NewsOwner)
+                .Include(n => n.NewsAdmin)
+                .SingleOrDefault(x => x.NewsId == id);
+
+            if (existingNews == null)
             {
-                return NotFound();
+                return NotFound(new { Message = "Güncellenecek haber bulunamadı." });
             }
 
-            oldNews.NewsTitle = updateNewsDto.NewsTitle;
-            oldNews.NewsContetText = updateNewsDto.NewsContentText; // Düzeltme yapıldı
-            oldNews.NewsCategoryId = updateNewsDto.NewsCategoryId;
-            oldNews.NewsLangId = updateNewsDto.NewsLangId;
-            oldNews.NewsVisibility = updateNewsDto.IsVisible;
-            oldNews.NewsRating = updateNewsDto.NewsRating;
-            oldNews.NewsYoutubeLink = updateNewsDto.NewsYoutubeLink;
-            oldNews.NewsUpdateDate = DateTime.Now;
+            // Haber detaylarını güncelle
+            existingNews.NewsTitle = updateNewsDto.NewsTitle;
+            existingNews.NewsContetText = updateNewsDto.NewsContetText;
+            existingNews.NewsDate = updateNewsDto.NewsDate;
+            existingNews.NewsCategoryId = updateNewsDto.NewsCategoryId;
+            existingNews.NewsLangId = updateNewsDto.NewsLangId;
+            existingNews.NewsVisibility = updateNewsDto.NewsVisibility;
+            existingNews.NewsRating = updateNewsDto.NewsRating;
+            existingNews.NewsYoutubeLink = updateNewsDto.NewsYoutubeLink;
 
+            // Haber fotoğraflarını güncelle
+            if (updateNewsDto.NewsPhotos != null)
+            {
+                existingNews.NewsPhotos.Clear();
+                foreach (var photo in updateNewsDto.NewsPhotos)
+                {
+                    existingNews.NewsPhotos.Add(new NewsPhoto { PhotoUrl = photo.PhotoUrl });
+                }
+            }
+
+            // Haber videolarını güncelle
+            if (updateNewsDto.NewsVideos != null)
+            {
+                existingNews.NewsVideos.Clear();
+                foreach (var video in updateNewsDto.NewsVideos)
+                {
+                    existingNews.NewsVideos.Add(new NewsVideo { VideoUrl = video.VideoUrl });
+                }
+            }
+
+            // Haber sahibi ve admini güncelle
+            existingNews.NewsOwnerId = updateNewsDto.NewsOwnerId;
+            existingNews.NewsAdminId = updateNewsDto.NewsAdminId;
+
+            // Veritabanına kaydet
             _sql.SaveChanges();
-            return NoContent();
+
+            return Ok(new { Message = "Haber başarıyla güncellendi." });
         }
+
+
+
 
 
         // EDIT (visibility Update )
@@ -689,10 +730,20 @@ namespace respNewsV8.Controllers
             news.NewsUpdateDate = DateTime.Now;
 
             // Değişiklikleri kaydet
-            _sql.SaveChanges();
+            var changes = _sql.SaveChanges();
 
-            return NoContent();  // Güncelleme başarılı olduğunda 204 döndür
+            // Eğer veri güncellenmişse başarılı yanıt döndür
+            if (changes > 0)
+            {
+                return Ok(new { success = true });
+            }
+            else
+            {
+                return BadRequest(new { success = false, message = "Veri güncellenmedi" });
+            }
         }
+
+
 
 
 

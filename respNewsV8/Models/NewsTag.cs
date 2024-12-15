@@ -7,9 +7,9 @@ public partial class NewsTag
 {
     public int TagId { get; set; }
 
-    public string? TagName { get; set; }
-
     public int? TagNewsId { get; set; }
+
+    public string? TagName { get; set; }
 
     public virtual News? TagNews { get; set; }
 }

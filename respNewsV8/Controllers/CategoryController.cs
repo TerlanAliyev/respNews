@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using respNewsV8.Models;
+using static respNewsV8.Controllers.NewsController;
 
 namespace respNewsV8.Controllers
 {
@@ -15,6 +16,8 @@ namespace respNewsV8.Controllers
         {
             _sql = sql;
         }
+
+
 
         private int? GetLanguageIdByCode(int langCode)
         {
@@ -96,9 +99,42 @@ namespace respNewsV8.Controllers
         }
 
 
+        [Authorize(Roles = "Admin")]
+        [HttpPut("{id}/visibility")]
+        public IActionResult UpdateVisibility(int id, [FromBody] UpdateCategoryVisibilityDto dto)
+        {
+            // İlgili kategoriyi ID'ye göre sorgula
+            var category = _sql.Categories.SingleOrDefault(x => x.CategoryId == id);
+
+            if (category == null)
+            {
+                return NotFound(new { success = false, message = "Kategori bulunamadı" });
+            }
+
+            // Gelen DTO'daki görünürlük durumunu kategoriye ata
+            category.CategoryStatus = dto.IsVisible;
+
+            // Veritabanı değişikliklerini kaydet
+            var changes = _sql.SaveChanges();
+
+            // Güncelleme başarılıysa olumlu bir yanıt döndür
+            if (changes > 0)
+            {
+                return Ok(new { success = true, message = "Kategori durumu güncellendi" });
+            }
+
+            // Güncelleme başarısızsa hata mesajı döndür
+            return BadRequest(new { success = false, message = "Kategori durumu güncellenemedi" });
+        }
+
+
+
+
+
+
 
         // POST 
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Post([FromForm] CategoryDto categoryDto)
         {
@@ -146,7 +182,7 @@ namespace respNewsV8.Controllers
 
 
         //DELETE
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)

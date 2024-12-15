@@ -13,6 +13,8 @@ public partial class Category
 
     public int? CategoryLangId { get; set; }
 
+    public bool? CategoryStatus { get; set; }
+
     public virtual Language? CategoryLang { get; set; }
 
     public virtual ICollection<News> News { get; set; } = new List<News>();

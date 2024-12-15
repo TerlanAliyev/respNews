@@ -44,7 +44,7 @@ namespace respNewsV8.Controllers
                     NewsYoutubeLink = n.NewsYoutubeLink,
                     NewsPhotos = n.NewsPhotos,
                     NewsVideos = n.NewsVideos,
-                    NewsTags = n.NewsTags,
+                    //NewsTags = n.NewsTags,
                     NewsOwner = n.NewsOwner
                 })
                 .ToListAsync();

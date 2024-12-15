@@ -28,6 +28,12 @@ namespace respNewsV8.Services
                     return false;
                 }
 
+                // Kullanıcıyı ve rolünü kontrol et
+                if (foundUser.UserRole != "Admin")  // veya kullanmak istediğiniz rol
+                {
+                    return false;
+                }
+
                 return true;
             }
             catch (Exception ex)

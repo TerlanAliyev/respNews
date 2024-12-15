@@ -69,6 +69,27 @@
   },
   {
     "ContainingType": "respNewsV8.Controllers.CategoryController",
+    "Method": "UpdateVisibility",
+    "RelativePath": "api/Category/{id}/visibility",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "respNewsV8.Controllers.UpdateCategoryVisibilityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.CategoryController",
     "Method": "GetAll",
     "RelativePath": "api/Category/all",
     "HttpMethod": "GET",
@@ -409,8 +430,8 @@
         "IsRequired": false
       },
       {
-        "Name": "Tags",
-        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "NewsTags",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
@@ -437,27 +458,6 @@
         "Name": "NewsVideos",
         "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "respNewsV8.Controllers.NewsController",
-    "Method": "UpdateNews",
-    "RelativePath": "api/News/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "updateNewsDto",
-        "Type": "respNewsV8.Controllers.UpdateNewsDto",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -559,17 +559,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "respNewsV8.Models.News",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "respNewsV8.Controllers.NewsController",
@@ -582,6 +572,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.NewsController",
+    "Method": "UpdateNews",
+    "RelativePath": "api/News/id/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateNewsDto",
+        "Type": "respNewsV8.Controllers.UpdateNewsDto",
         "IsRequired": true
       }
     ],
@@ -730,16 +741,6 @@
   },
   {
     "ContainingType": "respNewsV8.Controllers.NewspaperController",
-    "Method": "GetAllNewspapers",
-    "RelativePath": "api/Newspaper",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "respNewsV8.Controllers.NewspaperController",
     "Method": "CreateNewspaper",
     "RelativePath": "api/Newspaper",
     "HttpMethod": "POST",
@@ -802,12 +803,86 @@
   },
   {
     "ContainingType": "respNewsV8.Controllers.NewspaperController",
+    "Method": "UpdateVisibility",
+    "RelativePath": "api/Newspaper/{id}/visibility",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "respNewsV8.Controllers.NewspaperController\u002BUpdatePdfVisibilityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.NewspaperController",
+    "Method": "GetAllNewspapers",
+    "RelativePath": "api/Newspaper/all/{pageNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.NewspaperController",
     "Method": "GetNewsPaperCount",
     "RelativePath": "api/Newspaper/count",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.NewspaperController",
+    "Method": "UpdateNews",
+    "RelativePath": "api/Newspaper/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateNewsPaperDto",
+        "Type": "respNewsV8.Controllers.UpdateNewsPaperDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.NewspaperController",
+    "Method": "DeleteNewsPaper",
+    "RelativePath": "api/Newspaper/id/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -840,7 +915,7 @@
     "ContainingType": "respNewsV8.Controllers.OwnerController",
     "Method": "Get",
     "RelativePath": "api/Owner",
-    "HttpMethod": "",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
@@ -1156,6 +1231,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.UserController",
+    "Method": "Get",
+    "RelativePath": "api/User/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

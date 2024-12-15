@@ -12,6 +12,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.RateLimiting;
 using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,6 +48,15 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+// Authorization servisini ekleme
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Admin", policy => policy.RequireRole("Admin")); // Admin rolü gerektiren politika
+    // Diðer roller veya politikalara ihtiyacýnýz varsa, burada ekleyebilirsiniz.
+});
+
+
+
 // CORS yapýlandýrmasý
 builder.Services.AddCors(options =>
 {
@@ -57,6 +67,8 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader();
     });
 });
+builder.Services.AddSingleton<ITempDataDictionaryFactory, TempDataDictionaryFactory>();
+builder.Services.AddControllersWithViews(); // Bu, TempData'yý ve diðer servisleri kaydeder
 
 // Yetkilendirme
 builder.Services.AddAuthorization();
@@ -93,6 +105,10 @@ app.UseAuthorization();
 
 // API controller'larýný haritalama
 app.MapControllers();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=HomePage}/{action=HomePage}/{id?}"); // HomePageController ve HomePage action'ýna yönlendirir
 
 // Uygulama çalýþtýrýlýyor
 app.Run();

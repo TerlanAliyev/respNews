@@ -15,6 +15,7 @@ namespace respNewsV8.Controllers
             _sql = sql;
         }
         //GET
+        [HttpGet]
         public List<Owner> Get()
         {
             return _sql.Owners.ToList();

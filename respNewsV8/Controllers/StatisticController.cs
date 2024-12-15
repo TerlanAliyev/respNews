@@ -159,7 +159,7 @@ namespace respNewsV8.Controllers
                     .Include(n => n.NewsLang)
                     .Include(n => n.NewsPhotos)
                     .Include(n => n.NewsVideos)
-                    .Include(n => n.NewsTags)
+                    //.Include(n => n.NewsTags)
                     .OrderByDescending(n => n.NewsViewCount)
                     .Select(n => new
                     {
@@ -173,7 +173,7 @@ namespace respNewsV8.Controllers
                         n.NewsRating,
                         n.NewsOwnerId,
                         n.NewsYoutubeLink,
-                        n.NewsTags,
+                        //n.NewsTags,
                         n.NewsPhotos,
                         n.NewsVideos,
                         n.NewsLang,
@@ -315,7 +315,7 @@ namespace respNewsV8.Controllers
                     .Include(n => n.NewsLang)
                     .Include(n => n.NewsPhotos)
                     .Include(n => n.NewsVideos)
-                    .Include(n => n.NewsTags)
+                    //.Include(n => n.NewsTags)
                     .Where(n => n.NewsDate >= startDate)
                     .OrderByDescending(n => n.NewsViewCount)
                     .OrderByDescending(n=>n.NewsDate)
@@ -332,7 +332,7 @@ namespace respNewsV8.Controllers
                         n.NewsRating,
                         n.NewsOwnerId,
                         n.NewsYoutubeLink,
-                        n.NewsTags,
+                        //n.NewsTags,
                         n.NewsPhotos,
                         n.NewsVideos,
                         n.NewsLang,

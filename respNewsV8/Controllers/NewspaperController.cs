@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using respNewsV8.Models;
 
 namespace respNewsV8.Controllers
@@ -27,14 +28,51 @@ namespace respNewsV8.Controllers
         }
 
         // GET ALL
-        [HttpGet]
-        public IActionResult GetAllNewspapers()
+        [HttpGet("all/{pageNumber}")]
+        public IActionResult GetAllNewspapers(int pageNumber = 0)
         {
-            var newspapers = _sql.Newspapers.OrderByDescending(x=>x.NewspaperDate).ToList();
+            int page = pageNumber;
+
+            var newspapers = _sql.Newspapers
+                .OrderByDescending(x=>x.NewspaperDate)
+                .Skip(page * 5).Take(5)
+                .ToList();
             return Ok(newspapers);
         }
 
+        [HttpPut("{id}/visibility")]
+        public IActionResult UpdateVisibility(int id, [FromBody] UpdatePdfVisibilityDto dto)
+        {
+            // İlgili kategoriyi ID'ye göre sorgula
+            var paper = _sql.Newspapers.SingleOrDefault(x => x.NewspaperId == id);
 
+            if (paper == null)
+            {
+                return NotFound(new { success = false, message = "Pdf bulunamadı" });
+            }
+
+            // Gelen DTO'daki görünürlük durumunu kategoriye ata
+            paper.NewspaperStatus = dto.IsVisible;
+
+            // Veritabanı değişikliklerini kaydet
+            var changes = _sql.SaveChanges();
+
+            // Güncelleme başarılıysa olumlu bir yanıt döndür
+            if (changes > 0)
+            {
+                return Ok(new { success = true, message = "Pdf durumu güncellendi" });
+            }
+
+            // Güncelleme başarısızsa hata mesajı döndür
+            return BadRequest(new { success = false, message = "Pdf durumu güncellenemedi" });
+        }
+
+
+        // DTO for visibility update
+        public class UpdatePdfVisibilityDto
+        {
+            public bool IsVisible { get; set; }
+        }
 
 
         //umumi
@@ -53,6 +91,7 @@ namespace respNewsV8.Controllers
         }
 
 
+       
 
 
         // GET LAST
@@ -79,9 +118,50 @@ namespace respNewsV8.Controllers
         }
 
 
+        [HttpPut("edit/{id}")]
+        public IActionResult UpdateNews(int id, [FromBody] UpdateNewsPaperDto updateNewsPaperDto)
+        {
+            // Haberi bul
+            var existingNews = _sql.Newspapers
+                .SingleOrDefault(x => x.NewspaperId == id);
 
-        // POST
-        [HttpPost]
+            if (existingNews == null)
+            {
+                return NotFound(new { Message = "Güncellenecek haber bulunamadı." });
+            }
+
+            // Haber detaylarını güncelle
+            existingNews.NewspaperTitle = updateNewsPaperDto.NewspaperTitle;
+            existingNews.NewspaperLinkFlip = updateNewsPaperDto.NewspaperLinkFlip;
+            existingNews.NewspaperDate = updateNewsPaperDto.NewspaperDate;
+            existingNews.NewspaperStatus = updateNewsPaperDto.NewspaperStatus;
+            existingNews.NewspaperPrice = updateNewsPaperDto.NewspaperPrice;
+            existingNews.NewspaperCoverUrl = updateNewsPaperDto.NewspaperCoverUrl;
+            existingNews.NewspaperPdfUrl = updateNewsPaperDto.NewspaperPdfUrl;
+
+            // Veritabanına kaydet
+            _sql.SaveChanges();
+
+            return Ok(new { Message = "Qazet başarıyla güncellendi." });
+        }
+
+
+
+        [HttpDelete("id/{id}")]
+        public IActionResult DeleteNewsPaper(int id)
+        {
+            var a = _sql.Newspapers.SingleOrDefault(x => x.NewspaperId == id);
+            _sql.Newspapers.Remove(a);
+            _sql.SaveChanges();
+            return Ok();
+        }
+
+
+
+
+
+            // POST
+            [HttpPost]
         public async Task<IActionResult> CreateNewspaper([FromForm] newspaperDto newspaperDto)
         {
             if (newspaperDto == null)

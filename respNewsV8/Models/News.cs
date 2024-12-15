@@ -33,6 +33,8 @@ public partial class News
 
     public int? NewsAdminId { get; set; }
 
+    public string? NewsTags { get; set; }
+
     public virtual User? NewsAdmin { get; set; }
 
     public virtual Category? NewsCategory { get; set; }
@@ -42,8 +44,6 @@ public partial class News
     public virtual Owner? NewsOwner { get; set; }
 
     public virtual ICollection<NewsPhoto> NewsPhotos { get; set; } = new List<NewsPhoto>();
-
-    public virtual ICollection<NewsTag> NewsTags { get; set; } = new List<NewsTag>();
 
     public virtual ICollection<NewsVideo> NewsVideos { get; set; } = new List<NewsVideo>();
 }

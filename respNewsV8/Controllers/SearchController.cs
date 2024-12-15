@@ -42,7 +42,7 @@ namespace respNewsV8.Controllers
                         x.NewsContetText.Contains(query) ||
                         x.NewsCategory.CategoryName.Contains(query) ||
                         x.NewsOwner.OwnerName.Contains(query) ||
-                        x.NewsTags.Any(tag => tag.TagName.Contains(query))
+                        x.NewsTags.Contains(query)
                     )
                 )
                 .Select(n => new
@@ -52,6 +52,8 @@ namespace respNewsV8.Controllers
                     n.NewsDate,
                     n.NewsCategory.CategoryName,
                     n.NewsLang.LanguageName,
+                    n.NewsTags,
+                    n.NewsOwner.OwnerName,
                     n.NewsPhotos,
                 })
                 .Skip(pageNumber * 3).Take(3)

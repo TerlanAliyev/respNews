@@ -10,12 +10,24 @@ namespace respNewsV8.Controllers
     {
         private readonly IUserService _userService;
         private readonly IJwtService _jwtService;
+        private readonly RespNewContext _sql;
 
-        public UserController(IUserService userService, IJwtService jwtService)
+
+        public UserController(IUserService userService, IJwtService jwtService, RespNewContext sql)
         {
             _userService = userService;
             _jwtService = jwtService;
+            _sql = sql; 
         }
+
+
+        [HttpGet("users")]
+        public IActionResult Get()
+        {
+            var users=_sql.Users.ToList();
+            return Ok(users);
+        }
+
 
         [HttpPost("login")]
         public IActionResult Login([FromBody] User user)
@@ -32,11 +44,10 @@ namespace respNewsV8.Controllers
             }
             catch (Exception ex)
             {
-
-                // Hata mesajı ile birlikte 500 döndürülmesi
                 return StatusCode(500, new { Message = "Internal Server Error", Error = ex.Message });
             }
         }
+
 
     }
 }
