@@ -33,8 +33,16 @@
       "PackagePath": "staticwebassets\\CategoryCovers\\WhatsApp Görsel 2024-11-13 saat 19.44.18_e7c7959e.jpg"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\a89512bf-64c6-44af-b241-75a8d16d94a3.png",
+      "PackagePath": "staticwebassets\\CategoryCovers\\a89512bf-64c6-44af-b241-75a8d16d94a3.png"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\d6d478f0-420c-4aa8-a45e-4c1329b4c188.png",
       "PackagePath": "staticwebassets\\CategoryCovers\\d6d478f0-420c-4aa8-a45e-4c1329b4c188.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\e27af149-245c-40ab-a58d-c33bfd34860b.png",
+      "PackagePath": "staticwebassets\\CategoryCovers\\e27af149-245c-40ab-a58d-c33bfd34860b.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\ec58c3a9-0f4b-4044-8d88-7db12e887279.png",
@@ -47,6 +55,14 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\fee824e0-b126-4190-a3e2-f8b497181cfd.png",
       "PackagePath": "staticwebassets\\CategoryCovers\\fee824e0-b126-4190-a3e2-f8b497181cfd.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\794cc1b9-7cac-4d98-b00d-9233d110e3e7.png",
+      "PackagePath": "staticwebassets\\InfPhotos\\794cc1b9-7cac-4d98-b00d-9233d110e3e7.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\81680315-0fd9-4553-8892-7eae3cafac55.png",
+      "PackagePath": "staticwebassets\\InfPhotos\\81680315-0fd9-4553-8892-7eae3cafac55.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\9fac0f20-c949-435f-b22b-09f970ed0810.png",
@@ -65,12 +81,24 @@
       "PackagePath": "staticwebassets\\NewsPhotos\\03853c87-0de6-4914-a38c-cebbab942250.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\042cd23a-fecc-4eb5-8595-d8330a3bf778.jpeg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\042cd23a-fecc-4eb5-8595-d8330a3bf778.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\09172c7c-78b5-4cf3-bb4f-47c793d9c134.png",
       "PackagePath": "staticwebassets\\NewsPhotos\\09172c7c-78b5-4cf3-bb4f-47c793d9c134.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\09e0c312-fed2-4d5f-b353-f35f394035d8.png",
       "PackagePath": "staticwebassets\\NewsPhotos\\09e0c312-fed2-4d5f-b353-f35f394035d8.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\0facea9b-45ee-4527-a2e9-4286e25fa8a8.jpeg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\0facea9b-45ee-4527-a2e9-4286e25fa8a8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\0ff2c95f-eeeb-4e1e-b080-f7538de915ce.jpeg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\0ff2c95f-eeeb-4e1e-b080-f7538de915ce.jpeg"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\22d1828f-da87-4ace-b004-7ec436eab830.png",
@@ -87,6 +115,10 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\29d3f70c-cd21-45e7-9c23-fbd6e6131a03.png",
       "PackagePath": "staticwebassets\\NewsPhotos\\29d3f70c-cd21-45e7-9c23-fbd6e6131a03.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\33355509-3085-4a80-924c-c75eed0eeeb4.jpeg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\33355509-3085-4a80-924c-c75eed0eeeb4.jpeg"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\3cc5a733-29e9-465d-aca1-7ecf166a8ec4.jpg",
@@ -111,6 +143,10 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\67015e35-eb48-4aba-8631-c4d28a5dec0c.jpg",
       "PackagePath": "staticwebassets\\NewsPhotos\\67015e35-eb48-4aba-8631-c4d28a5dec0c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\6d5ecb83-da9c-4f54-bebc-d9ac69e960fd.jpeg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\6d5ecb83-da9c-4f54-bebc-d9ac69e960fd.jpeg"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\6f7d588e-830d-4eca-827d-800f93c16106.png",
@@ -165,6 +201,10 @@
       "PackagePath": "staticwebassets\\NewsPhotos\\c3328f55-7d2c-46a4-81cf-c79af92b2f8b.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\cf42f64e-6092-429c-adbc-f748c424e583.jpeg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\cf42f64e-6092-429c-adbc-f748c424e583.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\e3b98f92-4344-482e-b07e-45e6bc82f4a2.png",
       "PackagePath": "staticwebassets\\NewsPhotos\\e3b98f92-4344-482e-b07e-45e6bc82f4a2.png"
     },
@@ -175,6 +215,10 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\ee7736fd-d927-4868-8519-d0d2749aa31c.png",
       "PackagePath": "staticwebassets\\NewsPhotos\\ee7736fd-d927-4868-8519-d0d2749aa31c.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\f379daeb-20ae-4e0b-9c43-bfc386f14d24.jpeg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\f379daeb-20ae-4e0b-9c43-bfc386f14d24.jpeg"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\f9e703b7-e72e-4b77-9b11-aa5e84ffb208.png",
@@ -265,6 +309,10 @@
       "PackagePath": "staticwebassets\\NewspaperCovers\\4fcf44ae-2081-4d17-bf4e-62105ce2dbff.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\56d71a42-1ddf-421e-857e-1e092c5a37bf.png",
+      "PackagePath": "staticwebassets\\NewspaperCovers\\56d71a42-1ddf-421e-857e-1e092c5a37bf.png"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\64c22463-d611-45c4-bc91-54ecc2b65335.png",
       "PackagePath": "staticwebassets\\NewspaperCovers\\64c22463-d611-45c4-bc91-54ecc2b65335.png"
     },
@@ -287,6 +335,10 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\aece3721-8627-461c-8081-2ded4bc6d8d5.png",
       "PackagePath": "staticwebassets\\NewspaperCovers\\aece3721-8627-461c-8081-2ded4bc6d8d5.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\b917d96b-f5a1-4785-9788-38609a06c8ef.png",
+      "PackagePath": "staticwebassets\\NewspaperCovers\\b917d96b-f5a1-4785-9788-38609a06c8ef.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\c391763b-4aff-418d-b372-e4fb9600ad13.png",
@@ -335,6 +387,14 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\7ea2900a-0d0f-43f9-bb06-33a105eea68a.pdf",
       "PackagePath": "staticwebassets\\NewspaperPDF\\7ea2900a-0d0f-43f9-bb06-33a105eea68a.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\888ee43d-32c3-4db7-9690-3cced17e3d2c.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\888ee43d-32c3-4db7-9690-3cced17e3d2c.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\99e10c63-64ec-4e56-be3a-91b929f8815c.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\99e10c63-64ec-4e56-be3a-91b929f8815c.pdf"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\M-2.pdf",

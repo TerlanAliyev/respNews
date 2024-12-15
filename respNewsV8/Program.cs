@@ -13,6 +13,7 @@ using System.Text.Json.Serialization;
 using System.Threading.RateLimiting;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
+using DeviceDetectorNET.Parser.Device;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -51,9 +52,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 // Authorization servisini ekleme
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("Admin", policy => policy.RequireRole("Admin")); // Admin rolü gerektiren politika
-    // Diðer roller veya politikalara ihtiyacýnýz varsa, burada ekleyebilirsiniz.
+    options.AddPolicy("AdminOnly", policy =>
+        policy.RequireRole("Admin"));
 });
+
 
 
 

@@ -30,15 +30,23 @@ namespace respNewsV8.Controllers
 
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] User user)
+        public IActionResult Login([FromBody] LoginDto login)
         {
             try
             {
-                if (!_userService.IsValidUser(user))
+                if (login == null || string.IsNullOrEmpty(login.UserName) || string.IsNullOrEmpty(login.UserPassword))
+                {
+                    return BadRequest(new { Message = "Username and password are required" });
+                }
+
+                // Kullanıcı doğrulama
+                var user = _sql.Users.FirstOrDefault(u => u.UserName == login.UserName);
+                if (user == null || !_userService.IsValidUser(new User { UserName = login.UserName, UserPassword = login.UserPassword }))
                 {
                     return Unauthorized(new { Message = "Invalid username or password" });
                 }
 
+                // JWT Token üretimi
                 var tokenString = _jwtService.GenerateJwtToken(user.UserName);
                 return Ok(new { Token = tokenString });
             }
@@ -47,6 +55,8 @@ namespace respNewsV8.Controllers
                 return StatusCode(500, new { Message = "Internal Server Error", Error = ex.Message });
             }
         }
+
+
 
 
     }

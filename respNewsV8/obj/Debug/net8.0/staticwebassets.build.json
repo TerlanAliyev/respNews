@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K7fNxr/q4tWfz6u51TI9qU9I1hS2GEorY0bD6qEER/U=",
+  "Hash": "cyHZD6oi4sc839/s6LpBKOawxTMtxVx/3lG6B1fGIO0=",
   "Source": "respNewsV8",
   "BasePath": "_content/respNewsV8",
   "Mode": "Default",
@@ -164,6 +164,27 @@
       "OriginalItemSpec": "wwwroot\\CategoryCovers\\9ea958f6-4a5a-49c9-95aa-c739492711eb.png"
     },
     {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\a89512bf-64c6-44af-b241-75a8d16d94a3.png",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "CategoryCovers/a89512bf-64c6-44af-b241-75a8d16d94a3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1xgdft662d",
+      "Integrity": "G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CategoryCovers\\a89512bf-64c6-44af-b241-75a8d16d94a3.png"
+    },
+    {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\d6d478f0-420c-4aa8-a45e-4c1329b4c188.png",
       "SourceId": "respNewsV8",
       "SourceType": "Discovered",
@@ -183,6 +204,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CategoryCovers\\d6d478f0-420c-4aa8-a45e-4c1329b4c188.png"
+    },
+    {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\e27af149-245c-40ab-a58d-c33bfd34860b.png",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "CategoryCovers/e27af149-245c-40ab-a58d-c33bfd34860b#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9l60pgav1f",
+      "Integrity": "o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CategoryCovers\\e27af149-245c-40ab-a58d-c33bfd34860b.png"
     },
     {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\ec58c3a9-0f4b-4044-8d88-7db12e887279.png",
@@ -267,6 +309,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CategoryCovers\\WhatsApp Görsel 2024-11-13 saat 19.44.18_e7c7959e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\794cc1b9-7cac-4d98-b00d-9233d110e3e7.png",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "InfPhotos/794cc1b9-7cac-4d98-b00d-9233d110e3e7#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mi56l064f2",
+      "Integrity": "kgln5PZY61GdPyRtPl0x6RyHbv+qDaG8M93qN2ERVIA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\InfPhotos\\794cc1b9-7cac-4d98-b00d-9233d110e3e7.png"
+    },
+    {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\81680315-0fd9-4553-8892-7eae3cafac55.png",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "InfPhotos/81680315-0fd9-4553-8892-7eae3cafac55#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3ff3q6dnm9",
+      "Integrity": "zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\InfPhotos\\81680315-0fd9-4553-8892-7eae3cafac55.png"
     },
     {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\9fac0f20-c949-435f-b22b-09f970ed0810.png",
@@ -458,6 +542,27 @@
       "OriginalItemSpec": "wwwroot\\NewspaperCovers\\4fcf44ae-2081-4d17-bf4e-62105ce2dbff.png"
     },
     {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\56d71a42-1ddf-421e-857e-1e092c5a37bf.png",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "NewspaperCovers/56d71a42-1ddf-421e-857e-1e092c5a37bf#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r54j67bacv",
+      "Integrity": "MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ+8bov//o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewspaperCovers\\56d71a42-1ddf-421e-857e-1e092c5a37bf.png"
+    },
+    {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\64c22463-d611-45c4-bc91-54ecc2b65335.png",
       "SourceId": "respNewsV8",
       "SourceType": "Discovered",
@@ -540,6 +645,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\NewspaperCovers\\aece3721-8627-461c-8081-2ded4bc6d8d5.png"
+    },
+    {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\b917d96b-f5a1-4785-9788-38609a06c8ef.png",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "NewspaperCovers/b917d96b-f5a1-4785-9788-38609a06c8ef#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1xgdft662d",
+      "Integrity": "G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewspaperCovers\\b917d96b-f5a1-4785-9788-38609a06c8ef.png"
     },
     {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\c391763b-4aff-418d-b372-e4fb9600ad13.png",
@@ -836,6 +962,48 @@
       "OriginalItemSpec": "wwwroot\\NewspaperPDF\\7ea2900a-0d0f-43f9-bb06-33a105eea68a.pdf"
     },
     {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\888ee43d-32c3-4db7-9690-3cced17e3d2c.pdf",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "NewspaperPDF/888ee43d-32c3-4db7-9690-3cced17e3d2c#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmdoxh4r47",
+      "Integrity": "/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewspaperPDF\\888ee43d-32c3-4db7-9690-3cced17e3d2c.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\99e10c63-64ec-4e56-be3a-91b929f8815c.pdf",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "NewspaperPDF/99e10c63-64ec-4e56-be3a-91b929f8815c#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b5b6e1b6jx",
+      "Integrity": "7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewspaperPDF\\99e10c63-64ec-4e56-be3a-91b929f8815c.pdf"
+    },
+    {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\adebcc05-d9c8-4008-86d2-3438512b175b.pdf",
       "SourceId": "respNewsV8",
       "SourceType": "Discovered",
@@ -1067,6 +1235,27 @@
       "OriginalItemSpec": "wwwroot\\NewsPhotos\\03853c87-0de6-4914-a38c-cebbab942250.png"
     },
     {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\042cd23a-fecc-4eb5-8595-d8330a3bf778.jpeg",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "NewsPhotos/042cd23a-fecc-4eb5-8595-d8330a3bf778#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3plycyzbe4",
+      "Integrity": "V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewsPhotos\\042cd23a-fecc-4eb5-8595-d8330a3bf778.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\09172c7c-78b5-4cf3-bb4f-47c793d9c134.png",
       "SourceId": "respNewsV8",
       "SourceType": "Discovered",
@@ -1107,6 +1296,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\NewsPhotos\\09e0c312-fed2-4d5f-b353-f35f394035d8.png"
+    },
+    {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\0facea9b-45ee-4527-a2e9-4286e25fa8a8.jpeg",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "NewsPhotos/0facea9b-45ee-4527-a2e9-4286e25fa8a8#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3plycyzbe4",
+      "Integrity": "V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewsPhotos\\0facea9b-45ee-4527-a2e9-4286e25fa8a8.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\0ff2c95f-eeeb-4e1e-b080-f7538de915ce.jpeg",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "NewsPhotos/0ff2c95f-eeeb-4e1e-b080-f7538de915ce#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3plycyzbe4",
+      "Integrity": "V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewsPhotos\\0ff2c95f-eeeb-4e1e-b080-f7538de915ce.jpeg"
     },
     {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\22d1828f-da87-4ace-b004-7ec436eab830.png",
@@ -1191,6 +1422,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\NewsPhotos\\29d3f70c-cd21-45e7-9c23-fbd6e6131a03.png"
+    },
+    {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\33355509-3085-4a80-924c-c75eed0eeeb4.jpeg",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "NewsPhotos/33355509-3085-4a80-924c-c75eed0eeeb4#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3plycyzbe4",
+      "Integrity": "V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewsPhotos\\33355509-3085-4a80-924c-c75eed0eeeb4.jpeg"
     },
     {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\3cc5a733-29e9-465d-aca1-7ecf166a8ec4.jpg",
@@ -1317,6 +1569,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\NewsPhotos\\67015e35-eb48-4aba-8631-c4d28a5dec0c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\6d5ecb83-da9c-4f54-bebc-d9ac69e960fd.jpeg",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "NewsPhotos/6d5ecb83-da9c-4f54-bebc-d9ac69e960fd#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3plycyzbe4",
+      "Integrity": "V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewsPhotos\\6d5ecb83-da9c-4f54-bebc-d9ac69e960fd.jpeg"
     },
     {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\6f7d588e-830d-4eca-827d-800f93c16106.png",
@@ -1571,6 +1844,27 @@
       "OriginalItemSpec": "wwwroot\\NewsPhotos\\c3328f55-7d2c-46a4-81cf-c79af92b2f8b.png"
     },
     {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\cf42f64e-6092-429c-adbc-f748c424e583.jpeg",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "NewsPhotos/cf42f64e-6092-429c-adbc-f748c424e583#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3plycyzbe4",
+      "Integrity": "V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewsPhotos\\cf42f64e-6092-429c-adbc-f748c424e583.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\e3b98f92-4344-482e-b07e-45e6bc82f4a2.png",
       "SourceId": "respNewsV8",
       "SourceType": "Discovered",
@@ -1632,6 +1926,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\NewsPhotos\\ee7736fd-d927-4868-8519-d0d2749aa31c.png"
+    },
+    {
+      "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\f379daeb-20ae-4e0b-9c43-bfc386f14d24.jpeg",
+      "SourceId": "respNewsV8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\",
+      "BasePath": "_content/respNewsV8",
+      "RelativePath": "NewsPhotos/f379daeb-20ae-4e0b-9c43-bfc386f14d24#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3plycyzbe4",
+      "Integrity": "V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewsPhotos\\f379daeb-20ae-4e0b-9c43-bfc386f14d24.jpeg"
     },
     {
       "Identity": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\f9e703b7-e72e-4b77-9b11-aa5e84ffb208.png",
@@ -2015,7 +2330,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 20:28:28 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2060,7 +2375,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 20:28:28 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2097,7 +2412,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2142,7 +2457,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2179,7 +2494,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2224,7 +2539,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2261,7 +2576,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:20:19 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2306,7 +2621,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:20:19 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2343,7 +2658,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 20:28:20 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2388,7 +2703,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 20:28:20 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2425,7 +2740,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:22:17 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2470,7 +2785,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:22:17 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2507,7 +2822,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:18:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2552,7 +2867,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:18:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2563,6 +2878,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        }
+      ]
+    },
+    {
+      "Route": "CategoryCovers/a89512bf-64c6-44af-b241-75a8d16d94a3.1xgdft662d.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\a89512bf-64c6-44af-b241-75a8d16d94a3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 13:06:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1xgdft662d"
+        },
+        {
+          "Name": "label",
+          "Value": "CategoryCovers/a89512bf-64c6-44af-b241-75a8d16d94a3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU="
+        }
+      ]
+    },
+    {
+      "Route": "CategoryCovers/a89512bf-64c6-44af-b241-75a8d16d94a3.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\a89512bf-64c6-44af-b241-75a8d16d94a3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 13:06:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU="
         }
       ]
     },
@@ -2589,7 +2986,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:19:54 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2634,7 +3031,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:19:54 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2645,6 +3042,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        }
+      ]
+    },
+    {
+      "Route": "CategoryCovers/e27af149-245c-40ab-a58d-c33bfd34860b.9l60pgav1f.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\e27af149-245c-40ab-a58d-c33bfd34860b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 12:51:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9l60pgav1f"
+        },
+        {
+          "Name": "label",
+          "Value": "CategoryCovers/e27af149-245c-40ab-a58d-c33bfd34860b.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM="
+        }
+      ]
+    },
+    {
+      "Route": "CategoryCovers/e27af149-245c-40ab-a58d-c33bfd34860b.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\CategoryCovers\\e27af149-245c-40ab-a58d-c33bfd34860b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 12:51:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM="
         }
       ]
     },
@@ -2671,7 +3150,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 18:21:05 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2716,7 +3195,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 18:21:05 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2753,7 +3232,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:22:14 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2798,7 +3277,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:22:14 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2835,7 +3314,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2880,7 +3359,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2917,7 +3396,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2962,7 +3441,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2973,6 +3452,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-M7W6h/L/0+n1PneZPQ/EsQkFa+kUMF6RbHaOgeC2f/U="
+        }
+      ]
+    },
+    {
+      "Route": "InfPhotos/794cc1b9-7cac-4d98-b00d-9233d110e3e7.mi56l064f2.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\794cc1b9-7cac-4d98-b00d-9233d110e3e7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kgln5PZY61GdPyRtPl0x6RyHbv+qDaG8M93qN2ERVIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 17:38:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mi56l064f2"
+        },
+        {
+          "Name": "label",
+          "Value": "InfPhotos/794cc1b9-7cac-4d98-b00d-9233d110e3e7.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kgln5PZY61GdPyRtPl0x6RyHbv+qDaG8M93qN2ERVIA="
+        }
+      ]
+    },
+    {
+      "Route": "InfPhotos/794cc1b9-7cac-4d98-b00d-9233d110e3e7.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\794cc1b9-7cac-4d98-b00d-9233d110e3e7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kgln5PZY61GdPyRtPl0x6RyHbv+qDaG8M93qN2ERVIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 17:38:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kgln5PZY61GdPyRtPl0x6RyHbv+qDaG8M93qN2ERVIA="
+        }
+      ]
+    },
+    {
+      "Route": "InfPhotos/81680315-0fd9-4553-8892-7eae3cafac55.3ff3q6dnm9.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\81680315-0fd9-4553-8892-7eae3cafac55.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2660357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 17:08:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ff3q6dnm9"
+        },
+        {
+          "Name": "label",
+          "Value": "InfPhotos/81680315-0fd9-4553-8892-7eae3cafac55.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        }
+      ]
+    },
+    {
+      "Route": "InfPhotos/81680315-0fd9-4553-8892-7eae3cafac55.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\81680315-0fd9-4553-8892-7eae3cafac55.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2660357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 17:08:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
         }
       ]
     },
@@ -2999,7 +3642,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3044,7 +3687,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3081,7 +3724,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3126,7 +3769,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3163,7 +3806,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3208,7 +3851,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3245,7 +3888,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3290,7 +3933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3327,7 +3970,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3372,7 +4015,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3409,7 +4052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3454,7 +4097,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3491,7 +4134,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 21:59:09 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3536,7 +4179,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 21:59:09 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3573,7 +4216,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 20:15:27 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3618,7 +4261,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 20:15:27 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3655,7 +4298,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 06:49:11 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3700,7 +4343,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 06:49:11 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3711,6 +4354,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/56d71a42-1ddf-421e-857e-1e092c5a37bf.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\56d71a42-1ddf-421e-857e-1e092c5a37bf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ+8bov//o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 15:38:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ+8bov//o="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/56d71a42-1ddf-421e-857e-1e092c5a37bf.r54j67bacv.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\56d71a42-1ddf-421e-857e-1e092c5a37bf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ+8bov//o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 15:38:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r54j67bacv"
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperCovers/56d71a42-1ddf-421e-857e-1e092c5a37bf.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ+8bov//o="
         }
       ]
     },
@@ -3737,7 +4462,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3782,7 +4507,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3819,7 +4544,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3864,7 +4589,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3901,7 +4626,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3938,7 +4663,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3983,7 +4708,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:34:26 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4028,7 +4753,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:34:26 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4039,6 +4764,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/b917d96b-f5a1-4785-9788-38609a06c8ef.1xgdft662d.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\b917d96b-f5a1-4785-9788-38609a06c8ef.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 13:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1xgdft662d"
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperCovers/b917d96b-f5a1-4785-9788-38609a06c8ef.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/b917d96b-f5a1-4785-9788-38609a06c8ef.png",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\b917d96b-f5a1-4785-9788-38609a06c8ef.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 13:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU="
         }
       ]
     },
@@ -4065,7 +4872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4110,7 +4917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4147,7 +4954,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4192,7 +4999,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4229,7 +5036,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4274,7 +5081,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4311,7 +5118,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4356,7 +5163,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4393,7 +5200,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4430,7 +5237,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4475,7 +5282,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4520,7 +5327,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4557,7 +5364,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4602,7 +5409,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4639,7 +5446,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4684,7 +5491,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4721,7 +5528,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4766,7 +5573,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4803,7 +5610,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4840,7 +5647,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4885,7 +5692,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4922,7 +5729,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4967,7 +5774,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5004,7 +5811,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5049,7 +5856,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5094,7 +5901,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5131,7 +5938,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 06:49:11 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5176,7 +5983,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 06:49:11 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5187,6 +5994,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/888ee43d-32c3-4db7-9690-3cced17e3d2c.kmdoxh4r47.pdf",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\888ee43d-32c3-4db7-9690-3cced17e3d2c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3331459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 13:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmdoxh4r47"
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/888ee43d-32c3-4db7-9690-3cced17e3d2c.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/888ee43d-32c3-4db7-9690-3cced17e3d2c.pdf",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\888ee43d-32c3-4db7-9690-3cced17e3d2c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3331459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 13:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/99e10c63-64ec-4e56-be3a-91b929f8815c.b5b6e1b6jx.pdf",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\99e10c63-64ec-4e56-be3a-91b929f8815c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 15:38:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5b6e1b6jx"
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/99e10c63-64ec-4e56-be3a-91b929f8815c.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/99e10c63-64ec-4e56-be3a-91b929f8815c.pdf",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\99e10c63-64ec-4e56-be3a-91b929f8815c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 15:38:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
         }
       ]
     },
@@ -5213,7 +6184,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5258,7 +6229,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5295,7 +6266,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:34:26 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5340,7 +6311,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 19:34:26 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5377,7 +6348,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 20:15:27 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5422,7 +6393,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 20:15:27 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5459,7 +6430,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 21:59:09 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5504,7 +6475,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 21:59:09 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5541,7 +6512,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5586,7 +6557,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5623,7 +6594,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5668,7 +6639,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5705,7 +6676,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5742,7 +6713,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5787,7 +6758,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5832,7 +6803,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5869,7 +6840,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5906,7 +6877,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5951,7 +6922,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5996,7 +6967,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6033,7 +7004,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 16:31:46 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6078,7 +7049,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 16:31:46 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6089,6 +7060,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/042cd23a-fecc-4eb5-8595-d8330a3bf778.3plycyzbe4.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\042cd23a-fecc-4eb5-8595-d8330a3bf778.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:06:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3plycyzbe4"
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/042cd23a-fecc-4eb5-8595-d8330a3bf778.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/042cd23a-fecc-4eb5-8595-d8330a3bf778.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\042cd23a-fecc-4eb5-8595-d8330a3bf778.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:06:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
         }
       ]
     },
@@ -6115,7 +7168,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 18:20:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6160,7 +7213,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 18:20:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6197,7 +7250,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 16:28:35 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6242,7 +7295,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 16:28:35 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6253,6 +7306,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/0facea9b-45ee-4527-a2e9-4286e25fa8a8.3plycyzbe4.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\0facea9b-45ee-4527-a2e9-4286e25fa8a8.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:19:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3plycyzbe4"
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/0facea9b-45ee-4527-a2e9-4286e25fa8a8.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/0facea9b-45ee-4527-a2e9-4286e25fa8a8.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\0facea9b-45ee-4527-a2e9-4286e25fa8a8.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:19:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/0ff2c95f-eeeb-4e1e-b080-f7538de915ce.3plycyzbe4.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\0ff2c95f-eeeb-4e1e-b080-f7538de915ce.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:18:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3plycyzbe4"
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/0ff2c95f-eeeb-4e1e-b080-f7538de915ce.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/0ff2c95f-eeeb-4e1e-b080-f7538de915ce.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\0ff2c95f-eeeb-4e1e-b080-f7538de915ce.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:18:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
         }
       ]
     },
@@ -6279,7 +7496,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 18:20:51 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6324,7 +7541,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 18:20:51 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6361,7 +7578,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:25:02 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6406,7 +7623,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:25:02 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6443,7 +7660,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6488,7 +7705,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6525,7 +7742,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 17:45:29 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6570,7 +7787,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 17:45:29 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6581,6 +7798,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/33355509-3085-4a80-924c-c75eed0eeeb4.3plycyzbe4.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\33355509-3085-4a80-924c-c75eed0eeeb4.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:00:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3plycyzbe4"
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/33355509-3085-4a80-924c-c75eed0eeeb4.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/33355509-3085-4a80-924c-c75eed0eeeb4.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\33355509-3085-4a80-924c-c75eed0eeeb4.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:00:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
         }
       ]
     },
@@ -6607,7 +7906,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:16:03 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6644,7 +7943,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:16:03 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6689,7 +7988,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 18:20:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6734,7 +8033,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 18:20:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6771,7 +8070,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 15:09:14 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6816,7 +8115,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 15:09:14 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6853,7 +8152,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6898,7 +8197,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6935,7 +8234,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6972,7 +8271,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7017,7 +8316,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7062,7 +8361,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7073,6 +8372,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-M7W6h/L/0+n1PneZPQ/EsQkFa+kUMF6RbHaOgeC2f/U="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/6d5ecb83-da9c-4f54-bebc-d9ac69e960fd.3plycyzbe4.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\6d5ecb83-da9c-4f54-bebc-d9ac69e960fd.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:18:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3plycyzbe4"
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/6d5ecb83-da9c-4f54-bebc-d9ac69e960fd.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/6d5ecb83-da9c-4f54-bebc-d9ac69e960fd.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\6d5ecb83-da9c-4f54-bebc-d9ac69e960fd.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:18:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
         }
       ]
     },
@@ -7099,7 +8480,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7144,7 +8525,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7181,7 +8562,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7226,7 +8607,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7263,7 +8644,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 16:29:14 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7308,7 +8689,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 16:29:14 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7345,7 +8726,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 06:47:37 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7390,7 +8771,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 06:47:37 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7427,7 +8808,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7472,7 +8853,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7509,7 +8890,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7554,7 +8935,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7591,7 +8972,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:02:23 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7636,7 +9017,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:02:23 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7673,7 +9054,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:25:31 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7718,7 +9099,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:25:31 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7755,7 +9136,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 16:25:38 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7800,7 +9181,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 16:25:38 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7837,7 +9218,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 16:29:47 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7882,7 +9263,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 16:29:47 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7919,7 +9300,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7964,7 +9345,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8001,7 +9382,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8038,7 +9419,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8057,6 +9438,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-t1FIAvGMm7ijXOC815j+8YUlT5gRwModiVseBMZeKPw="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/cf42f64e-6092-429c-adbc-f748c424e583.3plycyzbe4.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\cf42f64e-6092-429c-adbc-f748c424e583.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3plycyzbe4"
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/cf42f64e-6092-429c-adbc-f748c424e583.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/cf42f64e-6092-429c-adbc-f748c424e583.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\cf42f64e-6092-429c-adbc-f748c424e583.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
         }
       ]
     },
@@ -8083,7 +9546,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 18:20:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8128,7 +9591,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 18:20:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8165,7 +9628,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:11:12 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8210,7 +9673,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:11:12 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8247,7 +9710,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8292,7 +9755,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8303,6 +9766,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/f379daeb-20ae-4e0b-9c43-bfc386f14d24.3plycyzbe4.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\f379daeb-20ae-4e0b-9c43-bfc386f14d24.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:02:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3plycyzbe4"
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/f379daeb-20ae-4e0b-9c43-bfc386f14d24.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/f379daeb-20ae-4e0b-9c43-bfc386f14d24.jpeg",
+      "AssetFile": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\f379daeb-20ae-4e0b-9c43-bfc386f14d24.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 14:02:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
         }
       ]
     },
@@ -8329,7 +9874,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 21:00:37 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8374,7 +9919,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 21:00:37 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8411,7 +9956,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8456,7 +10001,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8493,7 +10038,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8538,7 +10083,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8575,7 +10120,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8620,7 +10165,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8657,7 +10202,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8694,7 +10239,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8739,7 +10284,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8784,7 +10329,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8821,7 +10366,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8858,7 +10403,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8903,7 +10448,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:25:02 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8940,7 +10485,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:25:02 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8985,7 +10530,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9030,7 +10575,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9067,7 +10612,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9112,7 +10657,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9149,7 +10694,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9194,7 +10739,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:44 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9231,7 +10776,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:16:03 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9268,7 +10813,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:16:03 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9313,7 +10858,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9358,7 +10903,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9395,7 +10940,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:02:23 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9440,7 +10985,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 07:02:23 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9477,7 +11022,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9522,7 +11067,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9559,7 +11104,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9604,7 +11149,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9641,7 +11186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9686,7 +11231,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:48:45 GMT"
+          "Value": "Sun, 15 Dec 2024 12:10:01 GMT"
         },
         {
           "Name": "Cache-Control",

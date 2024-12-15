@@ -32,7 +32,7 @@ namespace respNewsV8.Controllers
 
         //GET
         [HttpGet("all")]
-        public List<Category> GetAll(int langId)
+        public List<Category> GetAll()
         {
             return _sql.Categories.ToList();
         }
@@ -99,7 +99,7 @@ namespace respNewsV8.Controllers
         }
 
 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpPut("{id}/visibility")]
         public IActionResult UpdateVisibility(int id, [FromBody] UpdateCategoryVisibilityDto dto)
         {
@@ -134,7 +134,7 @@ namespace respNewsV8.Controllers
 
 
         // POST 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Post([FromForm] CategoryDto categoryDto)
         {
@@ -182,7 +182,7 @@ namespace respNewsV8.Controllers
 
 
         //DELETE
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)

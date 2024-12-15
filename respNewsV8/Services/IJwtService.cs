@@ -17,15 +17,11 @@ namespace respNewsV8.Services
         private readonly IConfiguration _configuration;
         private readonly RespNewContext _sql;
 
-
         public JwtService(IConfiguration configuration, RespNewContext sql)
         {
             _configuration = configuration;
+            _sql = sql;  // DbContext'i buraya ekliyoruz
         }
-
-
-
-
 
         public string GenerateJwtToken(string username)
         {
@@ -40,10 +36,10 @@ namespace respNewsV8.Services
 
                 var claims = new[]
                 {
-            new Claim(ClaimTypes.Name, username),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim(ClaimTypes.Role, user.UserRole)  // Rolü JWT'ye ekliyoruz
-        };
+                new Claim(ClaimTypes.Name, username),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(ClaimTypes.Role, user.UserRole)  // Rolü JWT'ye ekliyoruz
+            };
 
                 var token = new JwtSecurityToken(
                     issuer: _configuration["Jwt:Issuer"],
@@ -57,13 +53,10 @@ namespace respNewsV8.Services
             }
             catch (Exception ex)
             {
-                throw;
+                throw new UnauthorizedAccessException("Token generation failed", ex);
             }
         }
-
-
-
-
-
     }
+
+
 }

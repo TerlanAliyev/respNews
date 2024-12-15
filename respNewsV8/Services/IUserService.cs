@@ -21,15 +21,16 @@ namespace respNewsV8.Services
             try
             {
                 var foundUser = _context.Users
-                    .FirstOrDefault(u => u.UserName == user.UserName && u.UserPassword == user.UserPassword);
+                    .FirstOrDefault(u => u.UserName == user.UserName);
 
-                if (foundUser == null)
+                // Kullanıcı bulunamadıysa veya şifre yanlışsa
+                if (foundUser == null || foundUser.UserPassword != user.UserPassword)
                 {
                     return false;
                 }
 
-                // Kullanıcıyı ve rolünü kontrol et
-                if (foundUser.UserRole != "Admin")  // veya kullanmak istediğiniz rol
+                // Kullanıcı rolünü kontrol et
+                if (foundUser.UserRole != "Admin")  // Burada "Admin" rolünü kontrol ediyorsunuz
                 {
                     return false;
                 }
@@ -41,6 +42,5 @@ namespace respNewsV8.Services
                 return false;
             }
         }
-
     }
 }

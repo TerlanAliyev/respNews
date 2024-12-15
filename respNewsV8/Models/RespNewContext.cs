@@ -37,6 +37,8 @@ public partial class RespNewContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+    public virtual DbSet<Ytvideo> Ytvideos { get; set; }
+
     public virtual DbSet<İnfographic> İnfographics { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -84,9 +86,7 @@ public partial class RespNewContext : DbContext
 
             entity.Property(e => e.NewsDate).HasColumnType("datetime");
             entity.Property(e => e.NewsTags).HasMaxLength(250);
-            entity.Property(e => e.NewsTitle)
-                .HasMaxLength(3000)
-                .IsUnicode(false);
+            entity.Property(e => e.NewsTitle).HasMaxLength(255);
             entity.Property(e => e.NewsUpdateDate).HasColumnType("datetime");
             entity.Property(e => e.NewsViewCount).HasDefaultValue(1);
 
@@ -195,6 +195,17 @@ public partial class RespNewContext : DbContext
             entity.Property(e => e.UserName).HasMaxLength(30);
             entity.Property(e => e.UserPassword).HasMaxLength(30);
             entity.Property(e => e.UserRole).HasMaxLength(30);
+        });
+
+        modelBuilder.Entity<Ytvideo>(entity =>
+        {
+            entity.HasKey(e => e.VideoId).HasName("PK__YTVideos__BAE5126A9B732CEC");
+
+            entity.ToTable("YTVideos");
+
+            entity.Property(e => e.VideoDate).HasColumnType("datetime");
+            entity.Property(e => e.VideoStatus).HasDefaultValue(true);
+            entity.Property(e => e.VideoTitle).HasMaxLength(300);
         });
 
         modelBuilder.Entity<İnfographic>(entity =>

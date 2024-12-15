@@ -95,13 +95,7 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "langId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[respNewsV8.Models.Category, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -169,7 +163,23 @@
   {
     "ContainingType": "respNewsV8.Controllers.InfographicsController",
     "Method": "Get",
-    "RelativePath": "api/Infographics",
+    "RelativePath": "api/Infographics/{pageNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.InfographicsController",
+    "Method": "GetInfCount",
+    "RelativePath": "api/Infographics/count",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -179,7 +189,7 @@
   {
     "ContainingType": "respNewsV8.Controllers.InfographicsController",
     "Method": "Delete",
-    "RelativePath": "api/Infographics",
+    "RelativePath": "api/Infographics/delete/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -187,7 +197,44 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.InfographicsController",
+    "Method": "UpdateNews",
+    "RelativePath": "api/Infographics/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "InfUpdateDto",
+        "Type": "respNewsV8.Controllers.InfUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.InfographicsController",
+    "Method": "GetbyId",
+    "RelativePath": "api/Infographics/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -862,8 +909,8 @@
         "IsRequired": true
       },
       {
-        "Name": "updateNewsPaperDto",
-        "Type": "respNewsV8.Controllers.UpdateNewsPaperDto",
+        "Name": "newspaper",
+        "Type": "respNewsV8.Models.Newspaper",
         "IsRequired": true
       }
     ],
@@ -1226,8 +1273,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "respNewsV8.Models.User",
+        "Name": "login",
+        "Type": "respNewsV8.Controllers.LoginDto",
         "IsRequired": true
       }
     ],
@@ -1244,9 +1291,78 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "respNewsV8.Controllers.YTVideosController",
-    "Method": "GetVideos",
-    "RelativePath": "api/YTVideos/{pageNumber}",
+    "ContainingType": "respNewsV8.Controllers.YoutubeController",
+    "Method": "Post",
+    "RelativePath": "api/Youtube",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ytvideo",
+        "Type": "respNewsV8.Models.Ytvideo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.YoutubeController",
+    "Method": "Delete",
+    "RelativePath": "api/Youtube/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.YoutubeController",
+    "Method": "Put",
+    "RelativePath": "api/Youtube/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ytvideo",
+        "Type": "respNewsV8.Models.Ytvideo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.YoutubeController",
+    "Method": "GetById",
+    "RelativePath": "api/Youtube/video/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.YoutubeController",
+    "Method": "Get",
+    "RelativePath": "api/Youtube/videos/{pageNumber}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

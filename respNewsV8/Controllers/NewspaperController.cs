@@ -119,7 +119,7 @@ namespace respNewsV8.Controllers
 
 
         [HttpPut("edit/{id}")]
-        public IActionResult UpdateNews(int id, [FromBody] UpdateNewsPaperDto updateNewsPaperDto)
+        public IActionResult UpdateNews(int id, [FromBody] Newspaper newspaper)
         {
             // Haberi bul
             var existingNews = _sql.Newspapers
@@ -131,19 +131,20 @@ namespace respNewsV8.Controllers
             }
 
             // Haber detaylarını güncelle
-            existingNews.NewspaperTitle = updateNewsPaperDto.NewspaperTitle;
-            existingNews.NewspaperLinkFlip = updateNewsPaperDto.NewspaperLinkFlip;
-            existingNews.NewspaperDate = updateNewsPaperDto.NewspaperDate;
-            existingNews.NewspaperStatus = updateNewsPaperDto.NewspaperStatus;
-            existingNews.NewspaperPrice = updateNewsPaperDto.NewspaperPrice;
-            existingNews.NewspaperCoverUrl = updateNewsPaperDto.NewspaperCoverUrl;
-            existingNews.NewspaperPdfUrl = updateNewsPaperDto.NewspaperPdfUrl;
+            existingNews.NewspaperTitle = newspaper.NewspaperTitle;
+            existingNews.NewspaperLinkFlip = newspaper.NewspaperLinkFlip;
+            existingNews.NewspaperDate = newspaper.NewspaperDate;
+            existingNews.NewspaperStatus = newspaper.NewspaperStatus;
+            existingNews.NewspaperPrice = newspaper.NewspaperPrice;
+            existingNews.NewspaperCoverUrl = newspaper.NewspaperCoverUrl;
+            existingNews.NewspaperPdfUrl = newspaper.NewspaperPdfUrl;
 
             // Veritabanına kaydet
             _sql.SaveChanges();
 
-            return Ok(new { Message = "Qazet başarıyla güncellendi." });
+            return Ok(new { Message = "Gazete başarıyla güncellendi." });
         }
+
 
 
 

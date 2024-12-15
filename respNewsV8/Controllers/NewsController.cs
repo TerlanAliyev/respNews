@@ -391,7 +391,7 @@ namespace respNewsV8.Controllers
 
 
         // Adminler ucun GET
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpGet("admin/{pageNumber}")]
         public List<News> GetForAdmins(DateTime? startDate = null, DateTime? endDate = null,int pageNumber=0)
         {
@@ -514,7 +514,7 @@ namespace respNewsV8.Controllers
 
 
         // POST
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Post([FromForm] UploadNewsDto uploadNewsDto)
         {
