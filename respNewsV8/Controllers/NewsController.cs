@@ -653,17 +653,17 @@ namespace respNewsV8.Controllers
         // [Authorize(Roles = "Admin")]
 
         [HttpPut("id/{id}")]
-        public IActionResult UpdateNews(int id, [FromBody] UpdateNewsDto updateNewsDto)
+        public async Task<IActionResult> UpdateNews(int id, [FromForm] News news)
         {
             // Haberi bul
-            var existingNews = _sql.News
+            var existingNews = await _sql.News
                 .Include(n => n.NewsCategory)
                 .Include(n => n.NewsLang)
                 .Include(n => n.NewsPhotos)
                 .Include(n => n.NewsVideos)
                 .Include(n => n.NewsOwner)
                 .Include(n => n.NewsAdmin)
-                .SingleOrDefault(x => x.NewsId == id);
+                .SingleOrDefaultAsync(x => x.NewsId == id);
 
             if (existingNews == null)
             {
@@ -671,46 +671,50 @@ namespace respNewsV8.Controllers
             }
 
             // Haber detaylarını güncelle
-            existingNews.NewsTitle = updateNewsDto.NewsTitle;
-            existingNews.NewsContetText = updateNewsDto.NewsContetText;
-            existingNews.NewsDate = updateNewsDto.NewsDate;
-            existingNews.NewsCategoryId = updateNewsDto.NewsCategoryId;
-            existingNews.NewsLangId = updateNewsDto.NewsLangId;
-            existingNews.NewsVisibility = updateNewsDto.NewsVisibility;
-            existingNews.NewsRating = updateNewsDto.NewsRating;
-            existingNews.NewsYoutubeLink = updateNewsDto.NewsYoutubeLink;
+            existingNews.NewsTitle = news.NewsTitle;
+            existingNews.NewsContetText = news.NewsContetText;
+            existingNews.NewsDate = news.NewsDate;
+            existingNews.NewsCategoryId = news.NewsCategoryId;
+            existingNews.NewsLangId = news.NewsLangId;
+            existingNews.NewsVisibility = news.NewsVisibility;
+            existingNews.NewsRating = news.NewsRating;
+            existingNews.NewsYoutubeLink = news.NewsYoutubeLink;
 
             // Haber fotoğraflarını güncelle
-            if (updateNewsDto.NewsPhotos != null)
+            if (news.NewsPhotos != null && news.NewsPhotos.Count > 0)
             {
                 existingNews.NewsPhotos.Clear();
-                foreach (var photo in updateNewsDto.NewsPhotos)
+                foreach (var photo in news.NewsPhotos)
                 {
-                    existingNews.NewsPhotos.Add(new NewsPhoto { PhotoUrl = photo.PhotoUrl });
+                    if (!string.IsNullOrEmpty(photo.PhotoUrl))
+                    {
+                        existingNews.NewsPhotos.Add(new NewsPhoto { PhotoUrl = photo.PhotoUrl });
+                    }
                 }
             }
 
             // Haber videolarını güncelle
-            if (updateNewsDto.NewsVideos != null)
+            if (news.NewsVideos != null && news.NewsVideos.Count > 0)
             {
                 existingNews.NewsVideos.Clear();
-                foreach (var video in updateNewsDto.NewsVideos)
+                foreach (var video in news.NewsVideos)
                 {
-                    existingNews.NewsVideos.Add(new NewsVideo { VideoUrl = video.VideoUrl });
+                    if (!string.IsNullOrEmpty(video.VideoUrl))
+                    {
+                        existingNews.NewsVideos.Add(new NewsVideo { VideoUrl = video.VideoUrl });
+                    }
                 }
             }
 
             // Haber sahibi ve admini güncelle
-            existingNews.NewsOwnerId = updateNewsDto.NewsOwnerId;
-            existingNews.NewsAdminId = updateNewsDto.NewsAdminId;
+            existingNews.NewsOwnerId = news.NewsOwnerId;
+            existingNews.NewsAdminId = news.NewsAdminId;
 
             // Veritabanına kaydet
-            _sql.SaveChanges();
+            await _sql.SaveChangesAsync();
 
             return Ok(new { Message = "Haber başarıyla güncellendi." });
         }
-
-
 
 
 

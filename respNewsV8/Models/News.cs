@@ -46,4 +46,11 @@ public partial class News
     public virtual ICollection<NewsPhoto> NewsPhotos { get; set; } = new List<NewsPhoto>();
 
     public virtual ICollection<NewsVideo> NewsVideos { get; set; } = new List<NewsVideo>();
+
+
+
+
+    public string? NewsCoverUrl { get; set; } // Yeni eklenen kapak resmi URL'si
+    public string? NewsPdfUrl { get; set; } // Yeni eklenen PDF dosya URL'si
+
 }

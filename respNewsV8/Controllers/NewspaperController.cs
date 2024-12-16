@@ -118,8 +118,20 @@ namespace respNewsV8.Controllers
         }
 
 
+       
+
+
+        [HttpDelete("id/{id}")]
+        public IActionResult DeleteNewsPaper(int id)
+        {
+            var a = _sql.Newspapers.SingleOrDefault(x => x.NewspaperId == id);
+            _sql.Newspapers.Remove(a);
+            _sql.SaveChanges();
+            return Ok();
+        }
+
         [HttpPut("edit/{id}")]
-        public IActionResult UpdateNews(int id, [FromBody] Newspaper newspaper)
+        public IActionResult UpdateNews(int id, [FromForm] Newspaper newspaper)
         {
             // Haberi bul
             var existingNews = _sql.Newspapers
@@ -136,8 +148,46 @@ namespace respNewsV8.Controllers
             existingNews.NewspaperDate = newspaper.NewspaperDate;
             existingNews.NewspaperStatus = newspaper.NewspaperStatus;
             existingNews.NewspaperPrice = newspaper.NewspaperPrice;
-            existingNews.NewspaperCoverUrl = newspaper.NewspaperCoverUrl;
-            existingNews.NewspaperPdfUrl = newspaper.NewspaperPdfUrl;
+
+            // Kapak fotoğrafını kaydet
+            if (newspaper.NewspaperCoverFile != null)
+            {
+                var coversFolderPath = Path.Combine("wwwroot", "NewspaperCovers");
+                if (!Directory.Exists(coversFolderPath))
+                {
+                    Directory.CreateDirectory(coversFolderPath);
+                }
+
+                var coverFileName = $"{Guid.NewGuid()}_{Path.GetFileName(newspaper.NewspaperCoverFile.FileName)}";
+                var coverFilePath = Path.Combine(coversFolderPath, coverFileName);
+
+                using (var stream = new FileStream(coverFilePath, FileMode.Create))
+                {
+                    newspaper.NewspaperCoverFile.CopyTo(stream);
+                }
+
+                existingNews.NewspaperCoverUrl = $"/NewspaperCovers/{coverFileName}";
+            }
+
+            // PDF dosyasını kaydet
+            if (newspaper.NewspaperPdfFile != null)
+            {
+                var pdfFolderPath = Path.Combine("wwwroot", "NewspaperPDF");
+                if (!Directory.Exists(pdfFolderPath))
+                {
+                    Directory.CreateDirectory(pdfFolderPath);
+                }
+
+                var pdfFileName = $"{Guid.NewGuid()}_{Path.GetFileName(newspaper.NewspaperPdfFile.FileName)}";
+                var pdfFilePath = Path.Combine(pdfFolderPath, pdfFileName);
+
+                using (var stream = new FileStream(pdfFilePath, FileMode.Create))
+                {
+                    newspaper.NewspaperPdfFile.CopyTo(stream);
+                }
+
+                existingNews.NewspaperPdfUrl = $"/NewspaperPDF/{pdfFileName}";
+            }
 
             // Veritabanına kaydet
             _sql.SaveChanges();
@@ -147,22 +197,8 @@ namespace respNewsV8.Controllers
 
 
 
-
-        [HttpDelete("id/{id}")]
-        public IActionResult DeleteNewsPaper(int id)
-        {
-            var a = _sql.Newspapers.SingleOrDefault(x => x.NewspaperId == id);
-            _sql.Newspapers.Remove(a);
-            _sql.SaveChanges();
-            return Ok();
-        }
-
-
-
-
-
-            // POST
-            [HttpPost]
+        // POST
+        [HttpPost]
         public async Task<IActionResult> CreateNewspaper([FromForm] newspaperDto newspaperDto)
         {
             if (newspaperDto == null)

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace respNewsV8.Models;
 
@@ -12,4 +13,8 @@ public partial class İnfographic
     public string? InfPhoto { get; set; }
 
     public DateTime? InfPostDate { get; set; }
+
+    [NotMapped]
+    public IFormFile? InfPhotoFile { get; set; }
+
 }

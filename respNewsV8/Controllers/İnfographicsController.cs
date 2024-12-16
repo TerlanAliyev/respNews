@@ -106,7 +106,7 @@ namespace respNewsV8.Controllers
 
 
         [HttpPut("edit/{id}")]
-        public IActionResult UpdateNews(int id, [FromBody] InfUpdateDto InfUpdateDto)
+        public IActionResult UpdateNews(int id, [FromForm] İnfographic infographic)
         {
             // Haberi bul
             var existingNews = _sql.İnfographics
@@ -118,11 +118,30 @@ namespace respNewsV8.Controllers
             }
 
             // Haber detaylarını güncelle
-            existingNews.InfName = InfUpdateDto.InfName;
-            existingNews.InfPostDate = InfUpdateDto.InfPostDate;
-            existingNews.InfPostDate=InfUpdateDto.InfPostDate;
+            existingNews.InfName = infographic.InfName;
+            existingNews.InfPostDate = infographic.InfPostDate;
+            existingNews.InfPostDate= infographic.InfPostDate;
 
-            
+            if (infographic.InfPhotoFile!= null)
+            {
+                var coversFolderPath = Path.Combine("wwwroot", "InfPhotos");
+                if (!Directory.Exists(coversFolderPath))
+                {
+                    Directory.CreateDirectory(coversFolderPath);
+                }
+
+                var coverFileName = $"{Guid.NewGuid()}_{Path.GetFileName(infographic.InfPhotoFile.FileName)}";
+                var coverFilePath = Path.Combine(coversFolderPath, coverFileName);
+
+                using (var stream = new FileStream(coverFilePath, FileMode.Create))
+                {
+                    infographic.InfPhotoFile.CopyTo(stream);
+                }
+
+                existingNews.InfPhoto = $"/InfPhotos/{coverFileName}";
+            }
+
+
             // Veritabanına kaydet
             _sql.SaveChanges();
 

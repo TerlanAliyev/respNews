@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace respNewsV8.Models;
 
@@ -20,4 +21,11 @@ public partial class Newspaper
     public string? NewspaperCoverUrl { get; set; }
 
     public string? NewspaperPdfUrl { get; set; }
+
+    // Formdan gelen dosyalar için IFormFile alanları
+    [NotMapped] // Bu alanlar EF Core tarafından haritalanmaz
+    public IFormFile? NewspaperCoverFile { get; set; }
+
+    [NotMapped]
+    public IFormFile? NewspaperPdfFile { get; set; }
 }

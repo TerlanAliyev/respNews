@@ -57,12 +57,20 @@
       "PackagePath": "staticwebassets\\CategoryCovers\\fee824e0-b126-4190-a3e2-f8b497181cfd.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.png",
+      "PackagePath": "staticwebassets\\InfPhotos\\3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.png"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\794cc1b9-7cac-4d98-b00d-9233d110e3e7.png",
       "PackagePath": "staticwebassets\\InfPhotos\\794cc1b9-7cac-4d98-b00d-9233d110e3e7.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\81680315-0fd9-4553-8892-7eae3cafac55.png",
       "PackagePath": "staticwebassets\\InfPhotos\\81680315-0fd9-4553-8892-7eae3cafac55.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\9a044d00-2181-4a13-89ee-f26ebb43e3d6.png",
+      "PackagePath": "staticwebassets\\InfPhotos\\9a044d00-2181-4a13-89ee-f26ebb43e3d6.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\InfPhotos\\9fac0f20-c949-435f-b22b-09f970ed0810.png",
@@ -181,6 +189,10 @@
       "PackagePath": "staticwebassets\\NewsPhotos\\WhatsApp Görsel 2024-11-13 saat 19.44.18_e7c7959e.jpg"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\abab19da-2572-41b4-9807-2f420599f244.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\abab19da-2572-41b4-9807-2f420599f244.png"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\aca9cfbd-3bec-4c3a-8feb-527c7da395bf.png",
       "PackagePath": "staticwebassets\\NewsPhotos\\aca9cfbd-3bec-4c3a-8feb-527c7da395bf.png"
     },
@@ -203,6 +215,10 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\cf42f64e-6092-429c-adbc-f748c424e583.jpeg",
       "PackagePath": "staticwebassets\\NewsPhotos\\cf42f64e-6092-429c-adbc-f748c424e583.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\d193ec09-8fbf-4178-b0b5-db5423ac67fb.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\d193ec09-8fbf-4178-b0b5-db5423ac67fb.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewsPhotos\\e3b98f92-4344-482e-b07e-45e6bc82f4a2.png",
@@ -293,8 +309,24 @@
       "PackagePath": "staticwebassets\\NewspaperCovers\\05ffcfe2-ca7c-4415-b6f1-4ff833d7a924.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jpg",
+      "PackagePath": "staticwebassets\\NewspaperCovers\\0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.jpg",
+      "PackagePath": "staticwebassets\\NewspaperCovers\\0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran görüntüsü 2024-11-24 021307.png",
+      "PackagePath": "staticwebassets\\NewspaperCovers\\11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran görüntüsü 2024-11-24 021307.png"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\140ff5c5-5a4c-48c6-9e0a-3ee64e4e8c99.png",
       "PackagePath": "staticwebassets\\NewspaperCovers\\140ff5c5-5a4c-48c6-9e0a-3ee64e4e8c99.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.jpg",
+      "PackagePath": "staticwebassets\\NewspaperCovers\\1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.jpg"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\3ad01285-024d-483b-a6d9-1bf6621da3a8.png",
@@ -317,6 +349,10 @@
       "PackagePath": "staticwebassets\\NewspaperCovers\\64c22463-d611-45c4-bc91-54ecc2b65335.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jpg",
+      "PackagePath": "staticwebassets\\NewspaperCovers\\702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jpg"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\7bce905b-523a-4f8e-81f0-30a1258d489b.png",
       "PackagePath": "staticwebassets\\NewspaperCovers\\7bce905b-523a-4f8e-81f0-30a1258d489b.png"
     },
@@ -331,6 +367,10 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\WhatsApp Görsel 2024-12-02 saat 10.42.22_a41d1574.jpg",
       "PackagePath": "staticwebassets\\NewspaperCovers\\WhatsApp Görsel 2024-12-02 saat 10.42.22_a41d1574.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.png",
+      "PackagePath": "staticwebassets\\NewspaperCovers\\a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\aece3721-8627-461c-8081-2ded4bc6d8d5.png",
@@ -353,12 +393,24 @@
       "PackagePath": "staticwebassets\\NewspaperCovers\\dc8c6285-3b3d-4617-bac6-1449383e79a6.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\feed2c9d-0bbd-419f-95c6-f8fc39267fd7.png",
+      "PackagePath": "staticwebassets\\NewspaperCovers\\feed2c9d-0bbd-419f-95c6-f8fc39267fd7.png"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\slideshow-1.png",
       "PackagePath": "staticwebassets\\NewspaperCovers\\slideshow-1.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperCovers\\slideshow-2.png",
       "PackagePath": "staticwebassets\\NewspaperCovers\\slideshow-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\0863d705-1e21-40a6-b0d5-eac5687ef407_Mülki müdafiə.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\0863d705-1e21-40a6-b0d5-eac5687ef407_Mülki müdafiə.pdf"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\1054a866-76e0-406b-8aa8-7fea950c2e4a.pdf",
@@ -373,12 +425,36 @@
       "PackagePath": "staticwebassets\\NewspaperPDF\\2437bdca-6b70-464c-841f-af994fdb739d.pdf"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\2ebbaf83-0bb3-4b15-ba29-37f6a24a7818.pdf",
       "PackagePath": "staticwebassets\\NewspaperPDF\\2ebbaf83-0bb3-4b15-ba29-37f6a24a7818.pdf"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\3655d0d4-ba32-4bba-a67e-d35aa2777282_Mülki müdafiə.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\3655d0d4-ba32-4bba-a67e-d35aa2777282_Mülki müdafiə.pdf"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\3bc1c2bb-61ea-41c0-bbdf-9d10fa468e97.pdf",
       "PackagePath": "staticwebassets\\NewspaperPDF\\3bc1c2bb-61ea-41c0-bbdf-9d10fa468e97.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\46b0c184-9b0a-4426-bc65-b7e02fcc9963_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\46b0c184-9b0a-4426-bc65-b7e02fcc9963_Təhlükəli yoluxucu xəstəliklər.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\50389b5f-7641-4e4c-8071-ca58e9247329_Mülki müdafiə.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\50389b5f-7641-4e4c-8071-ca58e9247329_Mülki müdafiə.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\56b20374-df63-446b-ae86-65f372b029f7_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\56b20374-df63-446b-ae86-65f372b029f7_Təhlükəli yoluxucu xəstəliklər.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\696a4ae7-2d48-43ab-a44d-27d6dd1560ba.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\696a4ae7-2d48-43ab-a44d-27d6dd1560ba.pdf"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\6d880792-295d-4468-9c8d-df7ca30a6c76.pdf",
@@ -401,6 +477,10 @@
       "PackagePath": "staticwebassets\\NewspaperPDF\\M-2.pdf"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\Təhlükəli yoluxucu xəstəliklər.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\Təhlükəli yoluxucu xəstəliklər.pdf"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\adebcc05-d9c8-4008-86d2-3438512b175b.pdf",
       "PackagePath": "staticwebassets\\NewspaperPDF\\adebcc05-d9c8-4008-86d2-3438512b175b.pdf"
     },
@@ -413,6 +493,10 @@
       "PackagePath": "staticwebassets\\NewspaperPDF\\b8953a8b-b40e-4fa9-b058-247b85cd0824.pdf"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\ba95247b-88d3-4e8c-be75-cd64b879cc11_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\ba95247b-88d3-4e8c-be75-cd64b879cc11_Təhlükəli yoluxucu xəstəliklər.pdf"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\befe3d1d-87e1-45d7-b548-fbb47f1d6bac.pdf",
       "PackagePath": "staticwebassets\\NewspaperPDF\\befe3d1d-87e1-45d7-b548-fbb47f1d6bac.pdf"
     },
@@ -423,6 +507,14 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\c8beae86-2330-44d6-941f-420fd3fe6a1a.pdf",
       "PackagePath": "staticwebassets\\NewspaperPDF\\c8beae86-2330-44d6-941f-420fd3fe6a1a.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_Təhlükəli yoluxucu xəstəliklər.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\f363bcb1-158a-43ce-b9d6-ec11f1612c58_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "PackagePath": "staticwebassets\\NewspaperPDF\\f363bcb1-158a-43ce-b9d6-ec11f1612c58_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\13.13\\respNews\\respNewsV8\\wwwroot\\NewspaperPDF\\s1TERLAN.pdf",

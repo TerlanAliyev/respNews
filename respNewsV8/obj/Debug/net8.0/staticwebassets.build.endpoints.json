@@ -1151,6 +1151,88 @@
       ]
     },
     {
+      "Route": "InfPhotos/3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.png",
+      "AssetFile": "InfPhotos/3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ+8bov//o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 16:01:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ+8bov//o="
+        }
+      ]
+    },
+    {
+      "Route": "InfPhotos/3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.r54j67bacv.png",
+      "AssetFile": "InfPhotos/3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ+8bov//o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 16:01:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r54j67bacv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ+8bov//o="
+        },
+        {
+          "Name": "label",
+          "Value": "InfPhotos/3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.png"
+        }
+      ]
+    },
+    {
       "Route": "InfPhotos/794cc1b9-7cac-4d98-b00d-9233d110e3e7.mi56l064f2.png",
       "AssetFile": "InfPhotos/794cc1b9-7cac-4d98-b00d-9233d110e3e7.png",
       "Selectors": [],
@@ -1305,6 +1387,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Sun, 15 Dec 2024 17:08:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        }
+      ]
+    },
+    {
+      "Route": "InfPhotos/9a044d00-2181-4a13-89ee-f26ebb43e3d6.3ff3q6dnm9.png",
+      "AssetFile": "InfPhotos/9a044d00-2181-4a13-89ee-f26ebb43e3d6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2660357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 16:04:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ff3q6dnm9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        },
+        {
+          "Name": "label",
+          "Value": "InfPhotos/9a044d00-2181-4a13-89ee-f26ebb43e3d6.png"
+        }
+      ]
+    },
+    {
+      "Route": "InfPhotos/9a044d00-2181-4a13-89ee-f26ebb43e3d6.png",
+      "AssetFile": "InfPhotos/9a044d00-2181-4a13-89ee-f26ebb43e3d6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2660357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 16:04:08 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3693,6 +3857,88 @@
       ]
     },
     {
+      "Route": "NewsPhotos/abab19da-2572-41b4-9807-2f420599f244.3ff3q6dnm9.png",
+      "AssetFile": "NewsPhotos/abab19da-2572-41b4-9807-2f420599f244.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2660357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:05:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ff3q6dnm9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/abab19da-2572-41b4-9807-2f420599f244.png"
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/abab19da-2572-41b4-9807-2f420599f244.png",
+      "AssetFile": "NewsPhotos/abab19da-2572-41b4-9807-2f420599f244.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2660357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:05:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        }
+      ]
+    },
+    {
       "Route": "NewsPhotos/aca9cfbd-3bec-4c3a-8feb-527c7da395bf.3ff3q6dnm9.png",
       "AssetFile": "NewsPhotos/aca9cfbd-3bec-4c3a-8feb-527c7da395bf.png",
       "Selectors": [],
@@ -4181,6 +4427,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/d193ec09-8fbf-4178-b0b5-db5423ac67fb.3ff3q6dnm9.png",
+      "AssetFile": "NewsPhotos/d193ec09-8fbf-4178-b0b5-db5423ac67fb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2660357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 06:59:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ff3q6dnm9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/d193ec09-8fbf-4178-b0b5-db5423ac67fb.png"
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/d193ec09-8fbf-4178-b0b5-db5423ac67fb.png",
+      "AssetFile": "NewsPhotos/d193ec09-8fbf-4178-b0b5-db5423ac67fb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2660357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 06:59:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
         }
       ]
     },
@@ -5989,6 +6317,252 @@
       ]
     },
     {
+      "Route": "NewspaperCovers/0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jf8rxzcwhc.jpg",
+      "AssetFile": "NewspaperCovers/0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "315070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 16:00:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jf8rxzcwhc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperCovers/0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jpg",
+      "AssetFile": "NewspaperCovers/0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "315070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 16:00:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.jpg",
+      "AssetFile": "NewspaperCovers/0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VzaaSTuAn2gYNA3nSYjd1hdGkiP4sPD0PdEy5VxSE1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 16:02:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VzaaSTuAn2gYNA3nSYjd1hdGkiP4sPD0PdEy5VxSE1I="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.zdu2g88ikb.jpg",
+      "AssetFile": "NewspaperCovers/0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VzaaSTuAn2gYNA3nSYjd1hdGkiP4sPD0PdEy5VxSE1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 16:02:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zdu2g88ikb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VzaaSTuAn2gYNA3nSYjd1hdGkiP4sPD0PdEy5VxSE1I="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperCovers/0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran görüntüsü 2024-11-24 021307.mi56l064f2.png",
+      "AssetFile": "NewspaperCovers/11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran görüntüsü 2024-11-24 021307.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kgln5PZY61GdPyRtPl0x6RyHbv+qDaG8M93qN2ERVIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:14:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mi56l064f2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kgln5PZY61GdPyRtPl0x6RyHbv+qDaG8M93qN2ERVIA="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperCovers/11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran görüntüsü 2024-11-24 021307.png"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran görüntüsü 2024-11-24 021307.png",
+      "AssetFile": "NewspaperCovers/11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran görüntüsü 2024-11-24 021307.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kgln5PZY61GdPyRtPl0x6RyHbv+qDaG8M93qN2ERVIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:14:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kgln5PZY61GdPyRtPl0x6RyHbv+qDaG8M93qN2ERVIA="
+        }
+      ]
+    },
+    {
       "Route": "NewspaperCovers/140ff5c5-5a4c-48c6-9e0a-3ee64e4e8c99.1z12u3zjaf.png",
       "AssetFile": "NewspaperCovers/140ff5c5-5a4c-48c6-9e0a-3ee64e4e8c99.png",
       "Selectors": [],
@@ -6067,6 +6641,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-g8+pxNmdqFyLrEquTvvuQU9Qk2idwi+Rp2Ul/AEuqnQ="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.jpg",
+      "AssetFile": "NewspaperCovers/1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "319100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:10:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.tl323wtjs1.jpg",
+      "AssetFile": "NewspaperCovers/1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "319100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:10:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tl323wtjs1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperCovers/1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.jpg"
         }
       ]
     },
@@ -6481,6 +7137,88 @@
       ]
     },
     {
+      "Route": "NewspaperCovers/702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jf8rxzcwhc.jpg",
+      "AssetFile": "NewspaperCovers/702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "315070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:09:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jf8rxzcwhc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperCovers/702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jpg",
+      "AssetFile": "NewspaperCovers/702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "315070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:09:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc="
+        }
+      ]
+    },
+    {
       "Route": "NewspaperCovers/7bce905b-523a-4f8e-81f0-30a1258d489b.1z12u3zjaf.png",
       "AssetFile": "NewspaperCovers/7bce905b-523a-4f8e-81f0-30a1258d489b.png",
       "Selectors": [],
@@ -6805,6 +7543,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-oC08kcJo5vuKZ2PlRrd3v28bur9CFOonynwdrlwu2Bs="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.3ff3q6dnm9.png",
+      "AssetFile": "NewspaperCovers/a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2660357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:10:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ff3q6dnm9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperCovers/a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.png"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.png",
+      "AssetFile": "NewspaperCovers/a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2660357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:10:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzLyWYEsV7BcpEPHG3OCm3w+z5a564aXz47kOO7nhZo="
         }
       ]
     },
@@ -7219,6 +8039,88 @@
       ]
     },
     {
+      "Route": "NewspaperCovers/feed2c9d-0bbd-419f-95c6-f8fc39267fd7.1xgdft662d.png",
+      "AssetFile": "NewspaperCovers/feed2c9d-0bbd-419f-95c6-f8fc39267fd7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:40:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1xgdft662d"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperCovers/feed2c9d-0bbd-419f-95c6-f8fc39267fd7.png"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperCovers/feed2c9d-0bbd-419f-95c6-f8fc39267fd7.png",
+      "AssetFile": "NewspaperCovers/feed2c9d-0bbd-419f-95c6-f8fc39267fd7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:40:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G4ZruLB+9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU="
+        }
+      ]
+    },
+    {
       "Route": "NewspaperCovers/slideshow-1.1z12u3zjaf.png",
       "AssetFile": "NewspaperCovers/slideshow-1.png",
       "Selectors": [],
@@ -7379,6 +8281,170 @@
         {
           "Name": "label",
           "Value": "NewspaperCovers/slideshow-2.png"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.by81yte82l.pdf",
+      "AssetFile": "NewspaperPDF/06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:10:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "by81yte82l"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "AssetFile": "NewspaperPDF/06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:10:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/0863d705-1e21-40a6-b0d5-eac5687ef407_Mülki müdafiə.kmdoxh4r47.pdf",
+      "AssetFile": "NewspaperPDF/0863d705-1e21-40a6-b0d5-eac5687ef407_Mülki müdafiə.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3331459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:01:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmdoxh4r47"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/0863d705-1e21-40a6-b0d5-eac5687ef407_Mülki müdafiə.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/0863d705-1e21-40a6-b0d5-eac5687ef407_Mülki müdafiə.pdf",
+      "AssetFile": "NewspaperPDF/0863d705-1e21-40a6-b0d5-eac5687ef407_Mülki müdafiə.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3331459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:01:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk="
         }
       ]
     },
@@ -7629,6 +8695,88 @@
       ]
     },
     {
+      "Route": "NewspaperPDF/2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.by81yte82l.pdf",
+      "AssetFile": "NewspaperPDF/2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:06:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "by81yte82l"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "AssetFile": "NewspaperPDF/2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:06:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="
+        }
+      ]
+    },
+    {
       "Route": "NewspaperPDF/2ebbaf83-0bb3-4b15-ba29-37f6a24a7818.pdf",
       "AssetFile": "NewspaperPDF/2ebbaf83-0bb3-4b15-ba29-37f6a24a7818.pdf",
       "Selectors": [],
@@ -7711,6 +8859,88 @@
       ]
     },
     {
+      "Route": "NewspaperPDF/3655d0d4-ba32-4bba-a67e-d35aa2777282_Mülki müdafiə.kmdoxh4r47.pdf",
+      "AssetFile": "NewspaperPDF/3655d0d4-ba32-4bba-a67e-d35aa2777282_Mülki müdafiə.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3331459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:46:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmdoxh4r47"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/3655d0d4-ba32-4bba-a67e-d35aa2777282_Mülki müdafiə.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/3655d0d4-ba32-4bba-a67e-d35aa2777282_Mülki müdafiə.pdf",
+      "AssetFile": "NewspaperPDF/3655d0d4-ba32-4bba-a67e-d35aa2777282_Mülki müdafiə.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3331459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:46:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk="
+        }
+      ]
+    },
+    {
       "Route": "NewspaperPDF/3bc1c2bb-61ea-41c0-bbdf-9d10fa468e97.pdf",
       "AssetFile": "NewspaperPDF/3bc1c2bb-61ea-41c0-bbdf-9d10fa468e97.pdf",
       "Selectors": [],
@@ -7789,6 +9019,334 @@
         {
           "Name": "label",
           "Value": "NewspaperPDF/3bc1c2bb-61ea-41c0-bbdf-9d10fa468e97.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/46b0c184-9b0a-4426-bc65-b7e02fcc9963_Təhlükəli yoluxucu xəstəliklər.b5b6e1b6jx.pdf",
+      "AssetFile": "NewspaperPDF/46b0c184-9b0a-4426-bc65-b7e02fcc9963_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:10:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5b6e1b6jx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/46b0c184-9b0a-4426-bc65-b7e02fcc9963_Təhlükəli yoluxucu xəstəliklər.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/46b0c184-9b0a-4426-bc65-b7e02fcc9963_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "AssetFile": "NewspaperPDF/46b0c184-9b0a-4426-bc65-b7e02fcc9963_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:10:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/50389b5f-7641-4e4c-8071-ca58e9247329_Mülki müdafiə.kmdoxh4r47.pdf",
+      "AssetFile": "NewspaperPDF/50389b5f-7641-4e4c-8071-ca58e9247329_Mülki müdafiə.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3331459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:09:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmdoxh4r47"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/50389b5f-7641-4e4c-8071-ca58e9247329_Mülki müdafiə.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/50389b5f-7641-4e4c-8071-ca58e9247329_Mülki müdafiə.pdf",
+      "AssetFile": "NewspaperPDF/50389b5f-7641-4e4c-8071-ca58e9247329_Mülki müdafiə.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3331459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:09:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/P9g6BYD3VswSNDsf2HviJa8P+ZtfAATSyIqfd7Wrsk="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/56b20374-df63-446b-ae86-65f372b029f7_Təhlükəli yoluxucu xəstəliklər.b5b6e1b6jx.pdf",
+      "AssetFile": "NewspaperPDF/56b20374-df63-446b-ae86-65f372b029f7_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:04:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5b6e1b6jx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/56b20374-df63-446b-ae86-65f372b029f7_Təhlükəli yoluxucu xəstəliklər.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/56b20374-df63-446b-ae86-65f372b029f7_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "AssetFile": "NewspaperPDF/56b20374-df63-446b-ae86-65f372b029f7_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:04:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/696a4ae7-2d48-43ab-a44d-27d6dd1560ba.by81yte82l.pdf",
+      "AssetFile": "NewspaperPDF/696a4ae7-2d48-43ab-a44d-27d6dd1560ba.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:40:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "by81yte82l"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/696a4ae7-2d48-43ab-a44d-27d6dd1560ba.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/696a4ae7-2d48-43ab-a44d-27d6dd1560ba.pdf",
+      "AssetFile": "NewspaperPDF/696a4ae7-2d48-43ab-a44d-27d6dd1560ba.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:40:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="
         }
       ]
     },
@@ -8203,6 +9761,88 @@
       ]
     },
     {
+      "Route": "NewspaperPDF/Təhlükəli yoluxucu xəstəliklər.b5b6e1b6jx.pdf",
+      "AssetFile": "NewspaperPDF/Təhlükəli yoluxucu xəstəliklər.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:37:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5b6e1b6jx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/Təhlükəli yoluxucu xəstəliklər.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/Təhlükəli yoluxucu xəstəliklər.pdf",
+      "AssetFile": "NewspaperPDF/Təhlükəli yoluxucu xəstəliklər.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:37:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
+        }
+      ]
+    },
+    {
       "Route": "NewspaperPDF/adebcc05-d9c8-4008-86d2-3438512b175b.f1sc0gfplc.pdf",
       "AssetFile": "NewspaperPDF/adebcc05-d9c8-4008-86d2-3438512b175b.pdf",
       "Selectors": [],
@@ -8449,6 +10089,88 @@
       ]
     },
     {
+      "Route": "NewspaperPDF/ba95247b-88d3-4e8c-be75-cd64b879cc11_Təhlükəli yoluxucu xəstəliklər.b5b6e1b6jx.pdf",
+      "AssetFile": "NewspaperPDF/ba95247b-88d3-4e8c-be75-cd64b879cc11_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:53:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5b6e1b6jx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/ba95247b-88d3-4e8c-be75-cd64b879cc11_Təhlükəli yoluxucu xəstəliklər.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/ba95247b-88d3-4e8c-be75-cd64b879cc11_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "AssetFile": "NewspaperPDF/ba95247b-88d3-4e8c-be75-cd64b879cc11_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 13:53:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
+        }
+      ]
+    },
+    {
       "Route": "NewspaperPDF/befe3d1d-87e1-45d7-b548-fbb47f1d6bac.kmdoxh4r47.pdf",
       "AssetFile": "NewspaperPDF/befe3d1d-87e1-45d7-b548-fbb47f1d6bac.pdf",
       "Selectors": [],
@@ -8691,6 +10413,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-DXfh/sWeA5WMGaPSz/xaSL8Ilp3ZDKVujeOWvfcnP+k="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_Təhlükəli yoluxucu xəstəliklər.b5b6e1b6jx.pdf",
+      "AssetFile": "NewspaperPDF/ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 16:00:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5b6e1b6jx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_Təhlükəli yoluxucu xəstəliklər.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "AssetFile": "NewspaperPDF/ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_Təhlükəli yoluxucu xəstəliklər.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5657003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 16:00:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7x+YS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/f363bcb1-158a-43ce-b9d6-ec11f1612c58_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.by81yte82l.pdf",
+      "AssetFile": "NewspaperPDF/f363bcb1-158a-43ce-b9d6-ec11f1612c58_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:14:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "by81yte82l"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="
+        },
+        {
+          "Name": "label",
+          "Value": "NewspaperPDF/f363bcb1-158a-43ce-b9d6-ec11f1612c58_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "NewspaperPDF/f363bcb1-158a-43ce-b9d6-ec11f1612c58_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "AssetFile": "NewspaperPDF/f363bcb1-158a-43ce-b9d6-ec11f1612c58_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:14:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="
         }
       ]
     },

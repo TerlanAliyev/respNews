@@ -168,6 +168,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-M7W6h/L/0\u002Bn1PneZPQ/EsQkFa\u002BkUMF6RbHaOgeC2f/U="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"544308"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022M7W6h/L/0\u002Bn1PneZPQ/EsQkFa\u002BkUMF6RbHaOgeC2f/U=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/InfPhotos/3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\InfPhotos\3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"102277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 16:01:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/InfPhotos/3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.r54j67bacv.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\InfPhotos\3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r54j67bacv"},{"Name":"integrity","Value":"sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o="},{"Name":"label","Value":"_content/respNewsV8/InfPhotos/3c76d1e3-1d9d-4930-b6cf-92fbf3578ead.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"102277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 16:01:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/InfPhotos/794cc1b9-7cac-4d98-b00d-9233d110e3e7.mi56l064f2.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\InfPhotos\794cc1b9-7cac-4d98-b00d-9233d110e3e7.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -191,6 +203,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 17:08:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/InfPhotos/9a044d00-2181-4a13-89ee-f26ebb43e3d6.3ff3q6dnm9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\InfPhotos\9a044d00-2181-4a13-89ee-f26ebb43e3d6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3ff3q6dnm9"},{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="},{"Name":"label","Value":"_content/respNewsV8/InfPhotos/9a044d00-2181-4a13-89ee-f26ebb43e3d6.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 16:04:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/InfPhotos/9a044d00-2181-4a13-89ee-f26ebb43e3d6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\InfPhotos\9a044d00-2181-4a13-89ee-f26ebb43e3d6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 16:04:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/InfPhotos/9fac0f20-c949-435f-b22b-09f970ed0810.5ez3sioz0q.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\InfPhotos\9fac0f20-c949-435f-b22b-09f970ed0810.png'))</AssetFile>
@@ -252,6 +276,42 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-g8\u002BpxNmdqFyLrEquTvvuQU9Qk2idwi\u002BRp2Ul/AEuqnQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"298685"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022g8\u002BpxNmdqFyLrEquTvvuQU9Qk2idwi\u002BRp2Ul/AEuqnQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jf8rxzcwhc.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jf8rxzcwhc"},{"Name":"integrity","Value":"sha256-b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc="},{"Name":"label","Value":"_content/respNewsV8/NewspaperCovers/0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"315070"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 16:00:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\0aec353f-d7b5-4631-ac62-ae5eeb97f275_WIN_20241215_13_11_41_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"315070"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 16:00:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VzaaSTuAn2gYNA3nSYjd1hdGkiP4sPD0PdEy5VxSE1I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"231722"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VzaaSTuAn2gYNA3nSYjd1hdGkiP4sPD0PdEy5VxSE1I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 16:02:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.zdu2g88ikb.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zdu2g88ikb"},{"Name":"integrity","Value":"sha256-VzaaSTuAn2gYNA3nSYjd1hdGkiP4sPD0PdEy5VxSE1I="},{"Name":"label","Value":"_content/respNewsV8/NewspaperCovers/0f200852-4ec5-4de6-87ce-c58bdd666d4d_WIN_20241216_11_28_47_Pro.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231722"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VzaaSTuAn2gYNA3nSYjd1hdGkiP4sPD0PdEy5VxSE1I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 16:02:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran görüntüsü 2024-11-24 021307.mi56l064f2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran görüntüsü 2024-11-24 021307.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mi56l064f2"},{"Name":"integrity","Value":"sha256-kgln5PZY61GdPyRtPl0x6RyHbv\u002BqDaG8M93qN2ERVIA="},{"Name":"label","Value":"_content/respNewsV8/NewspaperCovers/11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran g\u00F6r\u00FCnt\u00FCs\u00FC 2024-11-24 021307.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37682"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022kgln5PZY61GdPyRtPl0x6RyHbv\u002BqDaG8M93qN2ERVIA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:14:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran görüntüsü 2024-11-24 021307.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\11fe3481-f89e-4e1f-9f4b-4c352fc6d1b5_Ekran görüntüsü 2024-11-24 021307.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kgln5PZY61GdPyRtPl0x6RyHbv\u002BqDaG8M93qN2ERVIA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37682"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022kgln5PZY61GdPyRtPl0x6RyHbv\u002BqDaG8M93qN2ERVIA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:14:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/140ff5c5-5a4c-48c6-9e0a-3ee64e4e8c99.1z12u3zjaf.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\140ff5c5-5a4c-48c6-9e0a-3ee64e4e8c99.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -263,6 +323,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-g8\u002BpxNmdqFyLrEquTvvuQU9Qk2idwi\u002BRp2Ul/AEuqnQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"298685"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022g8\u002BpxNmdqFyLrEquTvvuQU9Qk2idwi\u002BRp2Ul/AEuqnQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"319100"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:10:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.tl323wtjs1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tl323wtjs1"},{"Name":"integrity","Value":"sha256-wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48="},{"Name":"label","Value":"_content/respNewsV8/NewspaperCovers/1fba6e83-01d2-4596-a6e6-390febf58923_WIN_20241117_00_24_05_Pro.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"319100"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:10:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/3ad01285-024d-483b-a6d9-1bf6621da3a8.3ff3q6dnm9.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\3ad01285-024d-483b-a6d9-1bf6621da3a8.png'))</AssetFile>
@@ -324,6 +396,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xRJ0\u002BCemfGKFz3Eki0nMueNYgTzdgZqVmAxWWngJ440="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"827437"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xRJ0\u002BCemfGKFz3Eki0nMueNYgTzdgZqVmAxWWngJ440=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jf8rxzcwhc.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jf8rxzcwhc"},{"Name":"integrity","Value":"sha256-b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc="},{"Name":"label","Value":"_content/respNewsV8/NewspaperCovers/702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"315070"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:09:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\702c960e-ddb7-4a2c-8650-86cec390d791_WIN_20241215_13_11_41_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"315070"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:09:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/7bce905b-523a-4f8e-81f0-30a1258d489b.1z12u3zjaf.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\7bce905b-523a-4f8e-81f0-30a1258d489b.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -347,6 +431,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xqwvkpy615"},{"Name":"integrity","Value":"sha256-dxAUHm1KO9r9EJo73Il1GsXzZ9OSk89pDo4YderI0f0="},{"Name":"label","Value":"_content/respNewsV8/NewspaperCovers/8bc6d74b-5933-4bcc-bd4a-5f9078890874.jpeg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2639"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dxAUHm1KO9r9EJo73Il1GsXzZ9OSk89pDo4YderI0f0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.3ff3q6dnm9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3ff3q6dnm9"},{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="},{"Name":"label","Value":"_content/respNewsV8/NewspaperCovers/a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:10:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\a3e05e71-3cd1-4d0a-a923-8d588e631f95_PAINT.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:10:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/aece3721-8627-461c-8081-2ded4bc6d8d5.3ff3q6dnm9.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\aece3721-8627-461c-8081-2ded4bc6d8d5.png'))</AssetFile>
@@ -408,6 +504,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-g8\u002BpxNmdqFyLrEquTvvuQU9Qk2idwi\u002BRp2Ul/AEuqnQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"298685"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022g8\u002BpxNmdqFyLrEquTvvuQU9Qk2idwi\u002BRp2Ul/AEuqnQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/feed2c9d-0bbd-419f-95c6-f8fc39267fd7.1xgdft662d.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\feed2c9d-0bbd-419f-95c6-f8fc39267fd7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1xgdft662d"},{"Name":"integrity","Value":"sha256-G4ZruLB\u002B9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU="},{"Name":"label","Value":"_content/respNewsV8/NewspaperCovers/feed2c9d-0bbd-419f-95c6-f8fc39267fd7.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"38085"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022G4ZruLB\u002B9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:40:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/feed2c9d-0bbd-419f-95c6-f8fc39267fd7.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\feed2c9d-0bbd-419f-95c6-f8fc39267fd7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-G4ZruLB\u002B9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"38085"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022G4ZruLB\u002B9IbmpR2ZHjyRjOtWbuyUkJy299bMiGd8LvU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:40:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperCovers/slideshow-1.1z12u3zjaf.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperCovers\slideshow-1.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -456,6 +564,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oC08kcJo5vuKZ2PlRrd3v28bur9CFOonynwdrlwu2Bs="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"276213"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022oC08kcJo5vuKZ2PlRrd3v28bur9CFOonynwdrlwu2Bs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.by81yte82l.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"by81yte82l"},{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Az\u0259rbaycan Respublikas\u0131nda s\u00FCr\u00FC\u015Fm\u0259 ehtimall\u0131 zonalar\u0131n t\u0259snifat\u0131.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:10:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\06de6d48-8d81-493f-b0ce-7d81a6e1a68b_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:10:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/0863d705-1e21-40a6-b0d5-eac5687ef407_Mülki müdafiə.kmdoxh4r47.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\0863d705-1e21-40a6-b0d5-eac5687ef407_Mülki müdafiə.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kmdoxh4r47"},{"Name":"integrity","Value":"sha256-/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/0863d705-1e21-40a6-b0d5-eac5687ef407_M\u00FClki m\u00FCdafi\u0259.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3331459"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:01:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/0863d705-1e21-40a6-b0d5-eac5687ef407_Mülki müdafiə.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\0863d705-1e21-40a6-b0d5-eac5687ef407_Mülki müdafiə.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3331459"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:01:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/1054a866-76e0-406b-8aa8-7fea950c2e4a.f1sc0gfplc.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\1054a866-76e0-406b-8aa8-7fea950c2e4a.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -492,6 +624,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uwkwx7f027"},{"Name":"integrity","Value":"sha256-IqFg\u002BarP7m2N4dH2OjkiGqUXNrifywX6lU0XKO0yiP0="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/2437bdca-6b70-464c-841f-af994fdb739d.pdf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"297505"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022IqFg\u002BarP7m2N4dH2OjkiGqUXNrifywX6lU0XKO0yiP0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.by81yte82l.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"by81yte82l"},{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Az\u0259rbaycan Respublikas\u0131nda s\u00FCr\u00FC\u015Fm\u0259 ehtimall\u0131 zonalar\u0131n t\u0259snifat\u0131.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:06:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\2e1ed9ad-5301-45b6-b84a-6005fa853ad2_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:06:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/2ebbaf83-0bb3-4b15-ba29-37f6a24a7818.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\2ebbaf83-0bb3-4b15-ba29-37f6a24a7818.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -504,6 +648,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uwkwx7f027"},{"Name":"integrity","Value":"sha256-IqFg\u002BarP7m2N4dH2OjkiGqUXNrifywX6lU0XKO0yiP0="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/2ebbaf83-0bb3-4b15-ba29-37f6a24a7818.pdf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"297505"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022IqFg\u002BarP7m2N4dH2OjkiGqUXNrifywX6lU0XKO0yiP0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/3655d0d4-ba32-4bba-a67e-d35aa2777282_Mülki müdafiə.kmdoxh4r47.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\3655d0d4-ba32-4bba-a67e-d35aa2777282_Mülki müdafiə.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kmdoxh4r47"},{"Name":"integrity","Value":"sha256-/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/3655d0d4-ba32-4bba-a67e-d35aa2777282_M\u00FClki m\u00FCdafi\u0259.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3331459"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:46:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/3655d0d4-ba32-4bba-a67e-d35aa2777282_Mülki müdafiə.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\3655d0d4-ba32-4bba-a67e-d35aa2777282_Mülki müdafiə.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3331459"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:46:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/3bc1c2bb-61ea-41c0-bbdf-9d10fa468e97.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\3bc1c2bb-61ea-41c0-bbdf-9d10fa468e97.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -515,6 +671,54 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u7rd7ixmrq"},{"Name":"integrity","Value":"sha256-Ckpqr4cVA0VMQ/rxh6mFzXJxFjpthDWg3h6JCHu1alY="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/3bc1c2bb-61ea-41c0-bbdf-9d10fa468e97.pdf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"11767601"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Ckpqr4cVA0VMQ/rxh6mFzXJxFjpthDWg3h6JCHu1alY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/46b0c184-9b0a-4426-bc65-b7e02fcc9963_Təhlükəli yoluxucu xəstəliklər.b5b6e1b6jx.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\46b0c184-9b0a-4426-bc65-b7e02fcc9963_Təhlükəli yoluxucu xəstəliklər.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b5b6e1b6jx"},{"Name":"integrity","Value":"sha256-7x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/46b0c184-9b0a-4426-bc65-b7e02fcc9963_T\u0259hl\u00FCk\u0259li yoluxucu x\u0259st\u0259likl\u0259r.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5657003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:10:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/46b0c184-9b0a-4426-bc65-b7e02fcc9963_Təhlükəli yoluxucu xəstəliklər.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\46b0c184-9b0a-4426-bc65-b7e02fcc9963_Təhlükəli yoluxucu xəstəliklər.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5657003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:10:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/50389b5f-7641-4e4c-8071-ca58e9247329_Mülki müdafiə.kmdoxh4r47.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\50389b5f-7641-4e4c-8071-ca58e9247329_Mülki müdafiə.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kmdoxh4r47"},{"Name":"integrity","Value":"sha256-/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/50389b5f-7641-4e4c-8071-ca58e9247329_M\u00FClki m\u00FCdafi\u0259.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3331459"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:09:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/50389b5f-7641-4e4c-8071-ca58e9247329_Mülki müdafiə.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\50389b5f-7641-4e4c-8071-ca58e9247329_Mülki müdafiə.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3331459"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:09:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/56b20374-df63-446b-ae86-65f372b029f7_Təhlükəli yoluxucu xəstəliklər.b5b6e1b6jx.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\56b20374-df63-446b-ae86-65f372b029f7_Təhlükəli yoluxucu xəstəliklər.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b5b6e1b6jx"},{"Name":"integrity","Value":"sha256-7x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/56b20374-df63-446b-ae86-65f372b029f7_T\u0259hl\u00FCk\u0259li yoluxucu x\u0259st\u0259likl\u0259r.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5657003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:04:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/56b20374-df63-446b-ae86-65f372b029f7_Təhlükəli yoluxucu xəstəliklər.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\56b20374-df63-446b-ae86-65f372b029f7_Təhlükəli yoluxucu xəstəliklər.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5657003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:04:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/696a4ae7-2d48-43ab-a44d-27d6dd1560ba.by81yte82l.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\696a4ae7-2d48-43ab-a44d-27d6dd1560ba.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"by81yte82l"},{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/696a4ae7-2d48-43ab-a44d-27d6dd1560ba.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:40:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/696a4ae7-2d48-43ab-a44d-27d6dd1560ba.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\696a4ae7-2d48-43ab-a44d-27d6dd1560ba.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:40:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/6d880792-295d-4468-9c8d-df7ca30a6c76.f1sc0gfplc.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\6d880792-295d-4468-9c8d-df7ca30a6c76.pdf'))</AssetFile>
@@ -600,6 +804,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3331459"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022/P9g6BYD3VswSNDsf2HviJa8P\u002BZtfAATSyIqfd7Wrsk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/ba95247b-88d3-4e8c-be75-cd64b879cc11_Təhlükəli yoluxucu xəstəliklər.b5b6e1b6jx.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\ba95247b-88d3-4e8c-be75-cd64b879cc11_Təhlükəli yoluxucu xəstəliklər.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b5b6e1b6jx"},{"Name":"integrity","Value":"sha256-7x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/ba95247b-88d3-4e8c-be75-cd64b879cc11_T\u0259hl\u00FCk\u0259li yoluxucu x\u0259st\u0259likl\u0259r.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5657003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:53:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/ba95247b-88d3-4e8c-be75-cd64b879cc11_Təhlükəli yoluxucu xəstəliklər.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\ba95247b-88d3-4e8c-be75-cd64b879cc11_Təhlükəli yoluxucu xəstəliklər.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5657003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:53:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/befe3d1d-87e1-45d7-b548-fbb47f1d6bac.kmdoxh4r47.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\befe3d1d-87e1-45d7-b548-fbb47f1d6bac.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -635,6 +851,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DXfh/sWeA5WMGaPSz/xaSL8Ilp3ZDKVujeOWvfcnP\u002Bk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"281077"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022DXfh/sWeA5WMGaPSz/xaSL8Ilp3ZDKVujeOWvfcnP\u002Bk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_Təhlükəli yoluxucu xəstəliklər.b5b6e1b6jx.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_Təhlükəli yoluxucu xəstəliklər.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b5b6e1b6jx"},{"Name":"integrity","Value":"sha256-7x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_T\u0259hl\u00FCk\u0259li yoluxucu x\u0259st\u0259likl\u0259r.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5657003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 16:00:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_Təhlükəli yoluxucu xəstəliklər.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\ca40a676-6a19-40d0-88a0-4f42ad7cb3d6_Təhlükəli yoluxucu xəstəliklər.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5657003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 16:00:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/f363bcb1-158a-43ce-b9d6-ec11f1612c58_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.by81yte82l.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\f363bcb1-158a-43ce-b9d6-ec11f1612c58_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"by81yte82l"},{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/f363bcb1-158a-43ce-b9d6-ec11f1612c58_Az\u0259rbaycan Respublikas\u0131nda s\u00FCr\u00FC\u015Fm\u0259 ehtimall\u0131 zonalar\u0131n t\u0259snifat\u0131.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:14:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/f363bcb1-158a-43ce-b9d6-ec11f1612c58_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\f363bcb1-158a-43ce-b9d6-ec11f1612c58_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 14:14:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/M-2.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\M-2.pdf'))</AssetFile>
@@ -683,6 +923,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SjHOju7aa48zNiVPgCjqpdGN88WUxnC7/0v0H2elF7U="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13713573"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022SjHOju7aa48zNiVPgCjqpdGN88WUxnC7/0v0H2elF7U=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/Təhlükəli yoluxucu xəstəliklər.b5b6e1b6jx.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\Təhlükəli yoluxucu xəstəliklər.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b5b6e1b6jx"},{"Name":"integrity","Value":"sha256-7x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="},{"Name":"label","Value":"_content/respNewsV8/NewspaperPDF/T\u0259hl\u00FCk\u0259li yoluxucu x\u0259st\u0259likl\u0259r.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5657003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:37:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewspaperPDF/Təhlükəli yoluxucu xəstəliklər.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewspaperPDF\Təhlükəli yoluxucu xəstəliklər.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5657003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227x\u002BYS50mQ5pwh1oeavJvaeckFBIet1BLAvprbrV3ttE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:37:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/03853c87-0de6-4914-a38c-cebbab942250.3ff3q6dnm9.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\03853c87-0de6-4914-a38c-cebbab942250.png'))</AssetFile>
@@ -984,6 +1236,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 12:10:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/abab19da-2572-41b4-9807-2f420599f244.3ff3q6dnm9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\abab19da-2572-41b4-9807-2f420599f244.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3ff3q6dnm9"},{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/abab19da-2572-41b4-9807-2f420599f244.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:05:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/abab19da-2572-41b4-9807-2f420599f244.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\abab19da-2572-41b4-9807-2f420599f244.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 13:05:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/aca9cfbd-3bec-4c3a-8feb-527c7da395bf.3ff3q6dnm9.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\aca9cfbd-3bec-4c3a-8feb-527c7da395bf.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -1055,6 +1319,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-V\u002BafgiaY9PVr\u002BLQttVDleTaaRsuYeShk2tYgic3/yX0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"415311"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022V\u002BafgiaY9PVr\u002BLQttVDleTaaRsuYeShk2tYgic3/yX0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 14:04:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/d193ec09-8fbf-4178-b0b5-db5423ac67fb.3ff3q6dnm9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\d193ec09-8fbf-4178-b0b5-db5423ac67fb.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3ff3q6dnm9"},{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/d193ec09-8fbf-4178-b0b5-db5423ac67fb.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 06:59:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/d193ec09-8fbf-4178-b0b5-db5423ac67fb.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\d193ec09-8fbf-4178-b0b5-db5423ac67fb.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Dec 2024 06:59:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/e3b98f92-4344-482e-b07e-45e6bc82f4a2.3ff3q6dnm9.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\e3b98f92-4344-482e-b07e-45e6bc82f4a2.png'))</AssetFile>
