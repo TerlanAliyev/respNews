@@ -59,20 +59,30 @@ namespace respNewsV8.Controllers
 
 
 
-        [HttpPut("edit/{id}")]
-        public IActionResult Put(int id,Ytvideo ytvideo)
+        [HttpPut("put/{id}")]
+        public IActionResult Put(int id, [FromForm] Ytvideo ytvideo)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);  // Returns validation errors
+            }
 
-            var old = _sql.Ytvideos.SingleOrDefault(x=>x.VideoId==id);
-            old.VideoTitle=ytvideo.VideoTitle;  
-            old.VideoUrl=ytvideo.VideoUrl;  
-            old.VideoDate=ytvideo.VideoDate;
+            var old = _sql.Ytvideos.SingleOrDefault(x => x.VideoId == id);
+            if (old == null)
+            {
+                return NotFound("Video bulunamadı.");
+            }
 
-
+            old.VideoTitle = ytvideo.VideoTitle;
+            old.VideoUrl = ytvideo.VideoUrl;
+            old.VideoDate = ytvideo.VideoDate;  // VideoDate'yi de güncellemeniz gerekebilir
+            old.VideoStatus = ytvideo.VideoStatus;  // VideoStatus'ü formdan alıyoruz
 
             _sql.SaveChanges();
-            return Ok();
+            return Ok(new { Message = "Video başarıyla güncellendi." });
         }
+
+
 
         [HttpDelete("delete/{id}")]
         public IActionResult Delete(int id)

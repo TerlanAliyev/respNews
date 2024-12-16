@@ -1595,7 +1595,7 @@
   {
     "ContainingType": "respNewsV8.Controllers.YoutubeController",
     "Method": "Put",
-    "RelativePath": "api/Youtube/edit/{id}",
+    "RelativePath": "api/Youtube/put/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1606,9 +1606,29 @@
         "IsRequired": true
       },
       {
-        "Name": "ytvideo",
-        "Type": "respNewsV8.Models.Ytvideo",
-        "IsRequired": true
+        "Name": "VideoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoStatus",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
